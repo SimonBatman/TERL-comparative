@@ -75,6 +75,12 @@ Thumbs.db
 # *.log
 # *.csv
 
+# Ubuntu部署相关文件（保留）
+# environment_ubuntu.yml
+# requirements.txt
+# UBUNTU_DEPLOYMENT.md
+# setup_ubuntu.sh
+
 # 模型文件（通常很大）
 *.pkl
 *.pth
