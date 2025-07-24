@@ -1,0 +1,102 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PYTHON_ARGCOMPLETE_OK
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# 环境变量
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 实验数据和日志（可选择性包含）
+# runs/
+# *.log
+# *.csv
+
+# Ubuntu部署相关文件（保留）
+# environment_ubuntu.yml
+# requirements.txt
+# UBUNTU_DEPLOYMENT.md
+# setup_ubuntu.sh
+
+# 模型文件（通常很大）
+*.pkl
+*.pth
+*.h5
+*.ckpt
+
+# TensorBoard日志
+# events.out.tfevents.*
+
+# 临时文件
+*.tmp
+*.temp
+
+# 编译文件
+*.o
+*.a
+*.lib
+*.dll
+*.exe

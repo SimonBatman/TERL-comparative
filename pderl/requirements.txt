@@ -1,0 +1,59 @@
+# PDERL项目依赖包
+# 更新版本以支持云平台部署
+
+# 核心机器学习库
+numpy>=1.19.0
+scipy>=1.5.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+pandas>=1.1.0
+
+# 强化学习环境
+gym>=0.17.0
+mujoco-py>=2.1.0
+
+# 深度学习框架
+# 注意：在云平台上需要根据CUDA版本安装PyTorch
+# 推荐命令：conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+torch>=1.9.0
+torchvision>=0.10.0
+
+# 系统监控和进程管理
+psutil>=5.7.0
+
+# 数据处理和可视化
+pillow>=8.0.0
+opencv-python>=4.5.0
+
+# 实用工具
+tqdm>=4.60.0
+colorama>=0.4.4
+termcolor>=1.1.0
+
+# 配置文件处理
+pyyaml>=5.4.0
+
+# 科学计算
+scikit-learn>=0.24.0
+
+# 日志和调试
+tensorboard>=2.8.0
+tensorboardX>=2.5.1
+wandb>=0.12.0
+
+# 并行计算
+joblib>=1.0.0
+
+# 网络和API
+requests>=2.25.0
+
+# 原有依赖 (保持兼容性)
+cffi>=1.12.3
+Cython>=0.29.7
+fastrand>=1.1
+glfw>=1.8.1
+
+# 可选依赖 (用于实验跟踪)
+# wandb>=0.12.0
+# line_profiler>=3.3.0
+# memory_profiler>=0.58.0
