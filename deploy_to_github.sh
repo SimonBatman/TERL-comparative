@@ -23,7 +23,7 @@ fi
 
 # 推送到GitHub
 echo "📤 推送到GitHub..."
-git push -u origin main
+git push -u origin master
 
 if [ $? -eq 0 ]; then
     echo "✅ 成功推送到GitHub!"
