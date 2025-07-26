@@ -1,11 +1,66 @@
-R_ERL/
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE文件
+.vscode/
 .idea/
-*/__pycache__/
-*.pyc
-.cache/
-*.pytest_cache/
-MUJOCO_LOG.TXT
-*pkl
-*evo_net
-*.DS_Store
-*.pdf
+*.swp
+*.swo
+*~
+
+# # 实验结果和日志
+# parallel_experiments/
+# test_*/
+# demo_test/
+# *.log
+# *.pkl
+# *.pt
+# *.pth
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# MuJoCo
+.mujoco/
+mjkey.txt
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+
+# 大文件
+*.mp4
+*.avi
+*.gif
+*.png
+*.jpg
+*.jpeg
