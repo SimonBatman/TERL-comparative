@@ -40,20 +40,20 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 if __name__ == "__main__":
     parameters = Parameters(parser)  # Inject the cla arguments in the parameters object
     
-    # 初始化日志记录器
+    # Initialize logger
     if parameters.use_tensorboard:
-        # 使用TensorBoard记录
+        # Use TensorBoard logging
         tb_tracker = TensorBoardTracker(parameters, parameters.tensorboard_dir)
-        print("📊 使用TensorBoard记录训练过程")
-        # 保持CSV兼容性（可选）
+        print("[TensorBoard] Using TensorBoard for training logging")
+        # Maintain CSV compatibility (optional)
         use_csv_backup = False
     else:
-        # 使用传统CSV记录
+        # Use traditional CSV logging
         tb_tracker = None
         use_csv_backup = True
-        print("📄 使用CSV文件记录训练过程")
+        print("[CSV] Using CSV files for training logging")
     
-    # CSV trackers（用于向后兼容或备份）
+    # CSV trackers (for backward compatibility or backup)
     if use_csv_backup or not parameters.use_tensorboard:
         tracker = LegacyCSVTracker(parameters, ['erl'], '_score.csv')
         frame_tracker = LegacyCSVTracker(parameters, ['frame_erl'], '_score.csv')
@@ -98,12 +98,12 @@ if __name__ == "__main__":
         behaviour_cloning_loss = stats['bc_loss']
         population_novelty = stats['pop_novelty']
 
-        # 计算进化统计
+        # Calculate evolution statistics
         elite = agent.evolver.selection_stats['elite']/agent.evolver.selection_stats['total']
         selected = agent.evolver.selection_stats['selected'] / agent.evolver.selection_stats['total']
         discarded = agent.evolver.selection_stats['discarded'] / agent.evolver.selection_stats['total']
         
-        # 控制台输出
+        # Console output
         avg_score = tracker.all_tracker[0][1] if tracker and len(tracker.all_tracker[0][0]) > 0 else 0.0
         print('#Games:', agent.num_games, '#Frames:', agent.num_frames,
               ' Train_Max:', '%.2f'%best_train_fitness if best_train_fitness is not None else None,
@@ -114,9 +114,9 @@ if __name__ == "__main__":
               ' PG Loss:', '%.4f' % policy_gradient_loss)
         print()
         
-        # TensorBoard记录
+        # TensorBoard logging
         if tb_tracker:
-            # 记录性能指标
+            # Log performance metrics
             tb_tracker.log_performance(
                 step=agent.num_frames,
                 erl_score=erl_score,
@@ -124,14 +124,14 @@ if __name__ == "__main__":
                 best_train_fitness=best_train_fitness
             )
             
-            # 记录损失
+            # Log losses
             tb_tracker.log_losses(
                 step=agent.num_frames,
                 pg_loss=policy_gradient_loss,
                 bc_loss=behaviour_cloning_loss
             )
             
-            # 记录进化统计
+            # Log evolution statistics
             tb_tracker.log_evolution_stats(
                 step=agent.num_frames,
                 elite_ratio=elite,
@@ -140,12 +140,12 @@ if __name__ == "__main__":
                 pop_novelty=population_novelty
             )
             
-            # 记录时间相关指标
+            # Log time-related metrics
             current_time = time.time() - time_start
             tb_tracker.log_custom_metric('Time_Elapsed_Hours', current_time/3600, agent.num_frames, 'Training')
             tb_tracker.log_custom_metric('Games_Completed', agent.num_games, agent.num_frames, 'Training')
             
-            # 定期记录网络权重（可选）
+            # Periodically log network weights (optional)
             if parameters.log_weights and agent.num_games % parameters.log_freq == 0:
                 if elite_index is not None:
                     tb_tracker.log_network_weights(
@@ -154,7 +154,7 @@ if __name__ == "__main__":
                         critic_net=agent.rl_agent.critic
                     )
         
-        # CSV记录（向后兼容）
+        # CSV logging (backward compatibility)
         if tracker:
             tracker.update([erl_score], agent.num_games)
             frame_tracker.update([erl_score], agent.num_frames)
@@ -185,9 +185,9 @@ if __name__ == "__main__":
 
             print("Progress Saved")
     
-    # 训练结束时的清理工作
+    # Training completion cleanup
     if tb_tracker:
-        # 记录最终统计信息
+        # Log final statistics
         total_time = time.time() - time_start
         tb_tracker.log_text('Training_Summary', 
                            f'Training completed!\n'
@@ -198,13 +198,13 @@ if __name__ == "__main__":
                            f'Final ERL score: {erl_score:.2f}' if erl_score else 'N/A', 
                            agent.num_frames)
         
-        # 关闭TensorBoard writer
+        # Close TensorBoard writer
         tb_tracker.close()
-        print("📊 TensorBoard日志已保存并关闭")
+        print("[TensorBoard] TensorBoard logs saved and closed")
     
-    print("🎉 训练完成！")
+    print("[SUCCESS] Training completed!")
     if parameters.use_tensorboard and parameters.tensorboard_dir:
-        print(f"📈 查看TensorBoard: tensorboard --logdir {parameters.tensorboard_dir}")
+        print(f"[INFO] View TensorBoard: tensorboard --logdir {parameters.tensorboard_dir}")
 
 
 
