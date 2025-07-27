@@ -1,0 +1,448 @@
+[TensorBoard] Logging enabled: parallel_experiments/Swimmer-v2_20250725_044206/seed_100/tensorboard_logs
+[INFO] View training progress: tensorboard --logdir parallel_experiments/Swimmer-v2_20250725_044206/seed_100/tensorboard_logs
+[TensorBoard] Using TensorBoard for training logging
+{   'action_dim': 2,
+    'alpha': 0.7,
+    'batch_size': 128,
+    'beta_zero': 0.5,
+    'buffer_size': 1000000,
+    'crossover_prob': 0.0,
+    'device': device(type='cuda'),
+    'distil': False,
+    'distil_type': 'fitness',
+    'elite_fraction': 0.1,
+    'env_name': 'Swimmer-v2',
+    'frac_frames_train': 1.0,
+    'gamma': 0.99,
+    'individual_bs': 8000,
+    'learn_start': 15627.0,
+    'log_freq': 10,
+    'log_weights': False,
+    'ls': 128,
+    'mutation_batch_size': 256,
+    'mutation_mag': 0.05,
+    'mutation_noise': False,
+    'mutation_prob': 0.9,
+    'next_save': 200,
+    'ns': False,
+    'ns_epochs': 10,
+    'num_evals': 1,
+    'num_frames': 2000000,
+    'opstat': False,
+    'opstat_freq': 1,
+    'per': False,
+    'pop_size': 10,
+    'proximal_mut': False,
+    'render': False,
+    'replace_old': True,
+    'rl_to_ea_synch_period': 10,
+    'save_foldername': 'parallel_experiments/Swimmer-v2_20250725_044206/seed_100',
+    'save_periodic': False,
+    'seed': 100,
+    'state_dim': 8,
+    'tau': 0.001,
+    'tensorboard_dir': None,
+    'test_operators': False,
+    'total_steps': 2000000,
+    'use_done_mask': True,
+    'use_ln': True,
+    'use_tensorboard': True,
+    'verbose_crossover': False,
+    'verbose_mut': False}
+Running Swimmer-v2  State_dim: 8  Action_dim: 2
+#Games: 11 #Frames: 11000  Train_Max: 37.82  Test_Score: 37.96  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 20.28  PG Loss: -1.5175
+
+#Games: 22 #Frames: 22000  Train_Max: 53.23  Test_Score: 53.75  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 4.18  PG Loss: -6.3536
+
+#Games: 33 #Frames: 33000  Train_Max: 73.51  Test_Score: 75.09  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 20.53  PG Loss: -12.8831
+
+#Games: 44 #Frames: 44000  Train_Max: 78.80  Test_Score: 77.29  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 18.08  PG Loss: -17.8444
+
+#Games: 55 #Frames: 55000  Train_Max: 63.54  Test_Score: 51.79  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 24.10  PG Loss: -21.9117
+
+#Games: 66 #Frames: 66000  Train_Max: 87.08  Test_Score: 87.95  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 25.78  PG Loss: -25.1869
+
+#Games: 77 #Frames: 77000  Train_Max: 104.43  Test_Score: 109.77  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 15.02  PG Loss: -27.1337
+
+#Games: 88 #Frames: 88000  Train_Max: 118.43  Test_Score: 112.26  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 6.36  PG Loss: -30.2509
+
+#Games: 99 #Frames: 99000  Train_Max: 129.14  Test_Score: 130.79  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 23.54  PG Loss: -32.6534
+
+Sync from RL --> Nevo
+#Games: 110 #Frames: 110000  Train_Max: 129.27  Test_Score: 126.17  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 77.47  PG Loss: -34.0089
+
+#Games: 121 #Frames: 121000  Train_Max: 132.88  Test_Score: 131.57  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 39.02  PG Loss: -34.1627
+
+#Games: 132 #Frames: 132000  Train_Max: 132.65  Test_Score: 127.83  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 34.45  PG Loss: -34.8179
+
+#Games: 143 #Frames: 143000  Train_Max: 113.60  Test_Score: 130.48  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 32.44  PG Loss: -35.7045
+
+#Games: 154 #Frames: 154000  Train_Max: 137.42  Test_Score: 135.27  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 15.56  PG Loss: -35.9257
+
+#Games: 165 #Frames: 165000  Train_Max: 154.83  Test_Score: 140.67  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 35.15  PG Loss: -36.0745
+
+#Games: 176 #Frames: 176000  Train_Max: 142.18  Test_Score: 150.55  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 37.30  PG Loss: -36.3829
+
+#Games: 187 #Frames: 187000  Train_Max: 151.69  Test_Score: 153.62  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 36.84  PG Loss: -36.4912
+
+#Games: 198 #Frames: 198000  Train_Max: 187.87  Test_Score: 177.18  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 37.38  PG Loss: -37.0487
+
+#Games: 209 #Frames: 209000  Train_Max: 180.76  Test_Score: 137.19  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 29.48  PG Loss: -37.2424
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 220 #Frames: 220000  Train_Max: 110.27  Test_Score: 111.24  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 40.02  PG Loss: -37.3336
+
+#Games: 231 #Frames: 231000  Train_Max: 104.99  Test_Score: 110.25  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 9.44  PG Loss: -37.0373
+
+#Games: 242 #Frames: 242000  Train_Max: 133.66  Test_Score: 134.84  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 33.29  PG Loss: -36.9503
+
+#Games: 253 #Frames: 253000  Train_Max: 155.40  Test_Score: 138.24  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 43.88  PG Loss: -36.8854
+
+#Games: 264 #Frames: 264000  Train_Max: 139.10  Test_Score: 139.44  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 19.64  PG Loss: -36.7168
+
+#Games: 275 #Frames: 275000  Train_Max: 133.17  Test_Score: 141.17  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 39.73  PG Loss: -36.9131
+
+#Games: 286 #Frames: 286000  Train_Max: 283.13  Test_Score: 282.16  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 32.55  PG Loss: -36.5054
+
+#Games: 297 #Frames: 297000  Train_Max: 284.98  Test_Score: 285.12  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 57.98  PG Loss: -35.6417
+
+#Games: 308 #Frames: 308000  Train_Max: 305.06  Test_Score: 299.99  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 24.44  PG Loss: -34.6993
+
+#Games: 319 #Frames: 319000  Train_Max: 312.29  Test_Score: 310.35  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 44.67  PG Loss: -34.0336
+
+Sync from RL --> Nevo
+#Games: 330 #Frames: 330000  Train_Max: 323.78  Test_Score: 322.40  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 71.67  PG Loss: -33.7145
+
+#Games: 341 #Frames: 341000  Train_Max: 316.66  Test_Score: 320.27  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 71.22  PG Loss: -33.3504
+
+#Games: 352 #Frames: 352000  Train_Max: 326.68  Test_Score: 320.77  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 48.16  PG Loss: -33.0367
+
+#Games: 363 #Frames: 363000  Train_Max: 317.01  Test_Score: 320.61  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 47.33  PG Loss: -32.8552
+
+#Games: 374 #Frames: 374000  Train_Max: 327.29  Test_Score: 323.00  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 47.21  PG Loss: -32.7860
+
+#Games: 385 #Frames: 385000  Train_Max: 321.57  Test_Score: 320.74  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 49.58  PG Loss: -32.5877
+
+#Games: 396 #Frames: 396000  Train_Max: 316.28  Test_Score: 320.08  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 42.44  PG Loss: -32.5259
+
+#Games: 407 #Frames: 407000  Train_Max: 322.37  Test_Score: 319.39  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 55.55  PG Loss: -32.5909
+
+Progress Saved
+#Games: 418 #Frames: 418000  Train_Max: 326.71  Test_Score: 322.12  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 56.95  PG Loss: -32.6455
+
+#Games: 429 #Frames: 429000  Train_Max: 322.10  Test_Score: 321.82  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 56.15  PG Loss: -32.5896
+
+Sync from RL --> Nevo
+#Games: 440 #Frames: 440000  Train_Max: 327.89  Test_Score: 309.33  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 37.26  PG Loss: -32.5281
+
+#Games: 451 #Frames: 451000  Train_Max: 320.71  Test_Score: 309.57  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 87.90  PG Loss: -32.6550
+
+#Games: 462 #Frames: 462000  Train_Max: 316.83  Test_Score: 312.82  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 58.24  PG Loss: -32.7476
+
+#Games: 473 #Frames: 473000  Train_Max: 333.00  Test_Score: 289.50  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 44.17  PG Loss: -32.8749
+
+#Games: 484 #Frames: 484000  Train_Max: 328.27  Test_Score: 320.88  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 58.14  PG Loss: -32.9102
+
+#Games: 495 #Frames: 495000  Train_Max: 331.08  Test_Score: 331.69  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 75.87  PG Loss: -33.0005
+
+#Games: 506 #Frames: 506000  Train_Max: 328.64  Test_Score: 333.80  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 89.43  PG Loss: -33.2394
+
+#Games: 517 #Frames: 517000  Train_Max: 347.27  Test_Score: 348.18  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 92.88  PG Loss: -33.4553
+
+#Games: 528 #Frames: 528000  Train_Max: 347.30  Test_Score: 347.29  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 74.51  PG Loss: -33.8412
+
+#Games: 539 #Frames: 539000  Train_Max: 348.06  Test_Score: 345.29  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 71.46  PG Loss: -34.3116
+
+Sync from RL --> Nevo
+#Games: 550 #Frames: 550000  Train_Max: 349.04  Test_Score: 347.06  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 54.45  PG Loss: -34.7479
+
+#Games: 561 #Frames: 561000  Train_Max: 348.26  Test_Score: 343.59  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 50.14  PG Loss: -34.9383
+
+#Games: 572 #Frames: 572000  Train_Max: 343.82  Test_Score: 344.14  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 91.58  PG Loss: -35.1331
+
+#Games: 583 #Frames: 583000  Train_Max: 343.48  Test_Score: 342.48  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 64.00  PG Loss: -35.2304
+
+#Games: 594 #Frames: 594000  Train_Max: 342.25  Test_Score: 341.48  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 61.97  PG Loss: -35.2367
+
+#Games: 605 #Frames: 605000  Train_Max: 345.20  Test_Score: 343.51  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 47.51  PG Loss: -35.4857
+
+Progress Saved
+#Games: 616 #Frames: 616000  Train_Max: 340.91  Test_Score: 340.43  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 28.92  PG Loss: -35.5855
+
+#Games: 627 #Frames: 627000  Train_Max: 339.82  Test_Score: 345.19  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 15.76  PG Loss: -35.7050
+
+#Games: 638 #Frames: 638000  Train_Max: 345.66  Test_Score: 342.58  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 32.51  PG Loss: -35.8111
+
+#Games: 649 #Frames: 649000  Train_Max: 342.30  Test_Score: 344.23  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 45.43  PG Loss: -35.8668
+
+Sync from RL --> Nevo
+#Games: 660 #Frames: 660000  Train_Max: 345.00  Test_Score: 345.25  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 62.68  PG Loss: -35.8767
+
+#Games: 671 #Frames: 671000  Train_Max: 348.59  Test_Score: 345.71  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 60.64  PG Loss: -35.8931
+
+#Games: 682 #Frames: 682000  Train_Max: 347.66  Test_Score: 336.76  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 38.46  PG Loss: -35.7892
+
+#Games: 693 #Frames: 693000  Train_Max: 347.25  Test_Score: 348.28  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 79.80  PG Loss: -35.5392
+
+#Games: 704 #Frames: 704000  Train_Max: 347.83  Test_Score: 344.65  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 48.17  PG Loss: -35.2325
+
+#Games: 715 #Frames: 715000  Train_Max: 344.82  Test_Score: 343.96  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 51.09  PG Loss: -35.0374
+
+#Games: 726 #Frames: 726000  Train_Max: 344.32  Test_Score: 345.88  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 75.77  PG Loss: -34.9259
+
+#Games: 737 #Frames: 737000  Train_Max: 346.83  Test_Score: 345.00  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 78.72  PG Loss: -34.8625
+
+#Games: 748 #Frames: 748000  Train_Max: 355.30  Test_Score: 354.36  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 54.72  PG Loss: -34.6679
+
+#Games: 759 #Frames: 759000  Train_Max: 354.57  Test_Score: 355.74  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 49.20  PG Loss: -34.5512
+
+Sync from RL --> Nevo
+#Games: 770 #Frames: 770000  Train_Max: 355.62  Test_Score: 355.95  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 38.08  PG Loss: -34.5894
+
+#Games: 781 #Frames: 781000  Train_Max: 359.78  Test_Score: 358.32  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 54.46  PG Loss: -34.5946
+
+#Games: 792 #Frames: 792000  Train_Max: 359.99  Test_Score: 359.85  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 49.09  PG Loss: -34.4824
+
+#Games: 803 #Frames: 803000  Train_Max: 358.16  Test_Score: 359.44  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 50.28  PG Loss: -34.4038
+
+Progress Saved
+#Games: 814 #Frames: 814000  Train_Max: 352.58  Test_Score: 351.63  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 48.72  PG Loss: -34.3845
+
+#Games: 825 #Frames: 825000  Train_Max: 357.25  Test_Score: 357.23  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 67.96  PG Loss: -34.3999
+
+#Games: 836 #Frames: 836000  Train_Max: 357.38  Test_Score: 356.16  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 102.21  PG Loss: -34.4010
+
+#Games: 847 #Frames: 847000  Train_Max: 355.57  Test_Score: 354.89  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 38.24  PG Loss: -34.2845
+
+#Games: 858 #Frames: 858000  Train_Max: 354.28  Test_Score: 355.92  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 30.51  PG Loss: -34.3810
+
+#Games: 869 #Frames: 869000  Train_Max: 354.49  Test_Score: 353.84  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 40.24  PG Loss: -34.5044
+
+Sync from RL --> Nevo
+#Games: 880 #Frames: 880000  Train_Max: 350.53  Test_Score: 353.49  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 25.93  PG Loss: -34.5220
+
+#Games: 891 #Frames: 891000  Train_Max: 359.67  Test_Score: 356.70  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 51.43  PG Loss: -34.5363
+
+#Games: 902 #Frames: 902000  Train_Max: 353.75  Test_Score: 356.86  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 48.79  PG Loss: -34.5157
+
+#Games: 913 #Frames: 913000  Train_Max: 359.23  Test_Score: 355.48  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 59.15  PG Loss: -34.5500
+
+#Games: 924 #Frames: 924000  Train_Max: 356.30  Test_Score: 359.19  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 94.94  PG Loss: -34.4781
+
+#Games: 935 #Frames: 935000  Train_Max: 356.46  Test_Score: 358.43  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 54.61  PG Loss: -34.3237
+
+#Games: 946 #Frames: 946000  Train_Max: 361.48  Test_Score: 361.22  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 68.38  PG Loss: -34.1441
+
+#Games: 957 #Frames: 957000  Train_Max: 360.48  Test_Score: 362.00  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 62.24  PG Loss: -34.0021
+
+#Games: 968 #Frames: 968000  Train_Max: 360.07  Test_Score: 360.28  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 57.45  PG Loss: -33.8106
+
+#Games: 979 #Frames: 979000  Train_Max: 361.89  Test_Score: 359.37  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 50.87  PG Loss: -33.6488
+
+Sync from RL --> Nevo
+#Games: 990 #Frames: 990000  Train_Max: 352.63  Test_Score: 356.34  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 95.98  PG Loss: -33.5180
+
+#Games: 1001 #Frames: 1001000  Train_Max: 364.63  Test_Score: 349.81  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 58.89  PG Loss: -33.3105
+
+Progress Saved
+#Games: 1012 #Frames: 1012000  Train_Max: 362.62  Test_Score: 354.42  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 86.80  PG Loss: -33.1256
+
+#Games: 1023 #Frames: 1023000  Train_Max: 358.35  Test_Score: 359.68  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 64.40  PG Loss: -32.9965
+
+#Games: 1034 #Frames: 1034000  Train_Max: 359.18  Test_Score: 357.11  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 60.30  PG Loss: -32.8716
+
+#Games: 1045 #Frames: 1045000  Train_Max: 362.29  Test_Score: 361.29  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 63.54  PG Loss: -32.8464
+
+#Games: 1056 #Frames: 1056000  Train_Max: 361.71  Test_Score: 357.53  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 60.91  PG Loss: -32.7884
+
+#Games: 1067 #Frames: 1067000  Train_Max: 359.29  Test_Score: 357.06  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 94.02  PG Loss: -32.7158
+
+#Games: 1078 #Frames: 1078000  Train_Max: 361.90  Test_Score: 357.17  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 74.04  PG Loss: -32.6848
+
+#Games: 1089 #Frames: 1089000  Train_Max: 361.57  Test_Score: 358.55  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 136.65  PG Loss: -32.5758
+
+Sync from RL --> Nevo
+#Games: 1100 #Frames: 1100000  Train_Max: 362.56  Test_Score: 360.25  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 78.65  PG Loss: -32.4347
+
+#Games: 1111 #Frames: 1111000  Train_Max: 360.43  Test_Score: 360.38  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 111.01  PG Loss: -32.2337
+
+#Games: 1122 #Frames: 1122000  Train_Max: 361.42  Test_Score: 361.18  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 85.77  PG Loss: -32.1043
+
+#Games: 1133 #Frames: 1133000  Train_Max: 358.87  Test_Score: 356.80  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 126.94  PG Loss: -31.9575
+
+#Games: 1144 #Frames: 1144000  Train_Max: 364.78  Test_Score: 353.10  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 261.01  PG Loss: -31.9020
+
+#Games: 1155 #Frames: 1155000  Train_Max: 361.39  Test_Score: 360.24  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 86.75  PG Loss: -31.9070
+
+#Games: 1166 #Frames: 1166000  Train_Max: 362.14  Test_Score: 359.51  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 93.64  PG Loss: -31.8993
+
+#Games: 1177 #Frames: 1177000  Train_Max: 359.54  Test_Score: 358.35  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 148.25  PG Loss: -31.9161
+
+#Games: 1188 #Frames: 1188000  Train_Max: 359.78  Test_Score: 359.74  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 236.39  PG Loss: -31.9919
+
+#Games: 1199 #Frames: 1199000  Train_Max: 362.55  Test_Score: 360.10  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 349.22  PG Loss: -32.0323
+
+Sync from RL --> Nevo
+#Games: 1210 #Frames: 1210000  Train_Max: 358.34  Test_Score: 359.90  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 179.20  PG Loss: -32.1734
+
+Progress Saved
+#Games: 1221 #Frames: 1221000  Train_Max: 358.94  Test_Score: 358.06  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 183.49  PG Loss: -32.2208
+
+#Games: 1232 #Frames: 1232000  Train_Max: 361.18  Test_Score: 359.17  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 119.63  PG Loss: -32.2574
+
+#Games: 1243 #Frames: 1243000  Train_Max: 357.41  Test_Score: 357.08  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 170.91  PG Loss: -32.3338
+
+#Games: 1254 #Frames: 1254000  Train_Max: 359.02  Test_Score: 361.24  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 150.04  PG Loss: -32.3597
+
+#Games: 1265 #Frames: 1265000  Train_Max: 361.62  Test_Score: 361.54  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 135.78  PG Loss: -32.4174
+
+#Games: 1276 #Frames: 1276000  Train_Max: 361.54  Test_Score: 359.03  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 176.62  PG Loss: -32.4730
+
+#Games: 1287 #Frames: 1287000  Train_Max: 359.09  Test_Score: 358.41  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 151.32  PG Loss: -32.4902
+
+#Games: 1298 #Frames: 1298000  Train_Max: 358.56  Test_Score: 352.14  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 123.82  PG Loss: -32.4933
+
+#Games: 1309 #Frames: 1309000  Train_Max: 362.64  Test_Score: 361.03  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 178.94  PG Loss: -32.5292
+
+Sync from RL --> Nevo
+#Games: 1320 #Frames: 1320000  Train_Max: 360.46  Test_Score: 359.35  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 159.46  PG Loss: -32.5471
+
+#Games: 1331 #Frames: 1331000  Train_Max: 364.48  Test_Score: 355.03  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 114.76  PG Loss: -32.5148
+
+#Games: 1342 #Frames: 1342000  Train_Max: 364.01  Test_Score: 357.10  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 312.40  PG Loss: -32.4653
+
+#Games: 1353 #Frames: 1353000  Train_Max: 358.84  Test_Score: 359.06  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 195.95  PG Loss: -32.4829
+
+#Games: 1364 #Frames: 1364000  Train_Max: 363.90  Test_Score: 359.68  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 184.83  PG Loss: -32.4647
+
+#Games: 1375 #Frames: 1375000  Train_Max: 362.75  Test_Score: 351.10  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 161.56  PG Loss: -32.5019
+
+#Games: 1386 #Frames: 1386000  Train_Max: 352.54  Test_Score: 340.39  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 299.51  PG Loss: -32.5192
+
+#Games: 1397 #Frames: 1397000  Train_Max: 353.75  Test_Score: 352.39  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 211.43  PG Loss: -32.4891
+
+#Games: 1408 #Frames: 1408000  Train_Max: 352.93  Test_Score: 349.83  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 315.68  PG Loss: -32.4958
+
+Progress Saved
+#Games: 1419 #Frames: 1419000  Train_Max: 347.92  Test_Score: 350.70  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 355.70  PG Loss: -32.5644
+
+Sync from RL --> Nevo
+#Games: 1430 #Frames: 1430000  Train_Max: 348.38  Test_Score: 351.32  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 251.45  PG Loss: -32.6061
+
+#Games: 1441 #Frames: 1441000  Train_Max: 354.87  Test_Score: 352.03  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 98.42  PG Loss: -32.6210
+
+#Games: 1452 #Frames: 1452000  Train_Max: 357.91  Test_Score: 356.28  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 200.56  PG Loss: -32.6301
+
+#Games: 1463 #Frames: 1463000  Train_Max: 358.51  Test_Score: 355.36  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 203.60  PG Loss: -32.7008
+
+#Games: 1474 #Frames: 1474000  Train_Max: 357.58  Test_Score: 356.14  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 183.82  PG Loss: -32.7264
+
+#Games: 1485 #Frames: 1485000  Train_Max: 359.34  Test_Score: 357.15  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 130.21  PG Loss: -32.7318
+
+#Games: 1496 #Frames: 1496000  Train_Max: 356.61  Test_Score: 356.95  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 148.51  PG Loss: -32.7597
+
+#Games: 1507 #Frames: 1507000  Train_Max: 356.61  Test_Score: 355.71  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 108.13  PG Loss: -32.9416
+
+#Games: 1518 #Frames: 1518000  Train_Max: 359.73  Test_Score: 356.27  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 93.56  PG Loss: -33.1151
+
+#Games: 1529 #Frames: 1529000  Train_Max: 356.88  Test_Score: 355.87  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 117.59  PG Loss: -33.1884
+
+Sync from RL --> Nevo
+#Games: 1540 #Frames: 1540000  Train_Max: 359.18  Test_Score: 356.36  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 110.75  PG Loss: -33.1761
+
+#Games: 1551 #Frames: 1551000  Train_Max: 359.16  Test_Score: 358.22  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 149.65  PG Loss: -33.1020
+
+#Games: 1562 #Frames: 1562000  Train_Max: 356.85  Test_Score: 359.18  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 124.11  PG Loss: -33.1185
+
+#Games: 1573 #Frames: 1573000  Train_Max: 362.17  Test_Score: 359.33  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 85.22  PG Loss: -33.1601
+
+#Games: 1584 #Frames: 1584000  Train_Max: 360.74  Test_Score: 357.73  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 325.00  PG Loss: -33.1644
+
+#Games: 1595 #Frames: 1595000  Train_Max: 358.14  Test_Score: 359.26  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 54.47  PG Loss: -33.1788
+
+#Games: 1606 #Frames: 1606000  Train_Max: 359.51  Test_Score: 358.83  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 54.83  PG Loss: -33.2040
+
+Progress Saved
+#Games: 1617 #Frames: 1617000  Train_Max: 361.23  Test_Score: 361.20  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 136.67  PG Loss: -33.2881
+
+#Games: 1628 #Frames: 1628000  Train_Max: 360.88  Test_Score: 360.23  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 112.82  PG Loss: -33.2918
+
+#Games: 1639 #Frames: 1639000  Train_Max: 358.64  Test_Score: 360.49  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 89.43  PG Loss: -33.3155
+
+Sync from RL --> Nevo
+#Games: 1650 #Frames: 1650000  Train_Max: 361.89  Test_Score: 359.87  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 109.63  PG Loss: -33.3591
+
+#Games: 1661 #Frames: 1661000  Train_Max: 360.36  Test_Score: 357.93  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 121.18  PG Loss: -33.3678
+
+#Games: 1672 #Frames: 1672000  Train_Max: 361.59  Test_Score: 360.08  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 78.78  PG Loss: -33.3985
+
+#Games: 1683 #Frames: 1683000  Train_Max: 363.94  Test_Score: 359.64  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 58.09  PG Loss: -33.5179
+
+#Games: 1694 #Frames: 1694000  Train_Max: 363.09  Test_Score: 361.69  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 72.87  PG Loss: -33.6483
+
+#Games: 1705 #Frames: 1705000  Train_Max: 358.58  Test_Score: 361.31  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 61.55  PG Loss: -33.6550
+
+#Games: 1716 #Frames: 1716000  Train_Max: 358.55  Test_Score: 361.00  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 72.67  PG Loss: -33.6292
+
+#Games: 1727 #Frames: 1727000  Train_Max: 359.98  Test_Score: 362.43  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 66.73  PG Loss: -33.5879
+
+#Games: 1738 #Frames: 1738000  Train_Max: 363.30  Test_Score: 358.32  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 57.65  PG Loss: -33.5686
+
+#Games: 1749 #Frames: 1749000  Train_Max: 359.78  Test_Score: 360.05  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 40.83  PG Loss: -33.6485
+
+Sync from RL --> Nevo
+#Games: 1760 #Frames: 1760000  Train_Max: 359.98  Test_Score: 358.19  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 55.94  PG Loss: -33.7397
+
+#Games: 1771 #Frames: 1771000  Train_Max: 358.57  Test_Score: 358.33  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 61.22  PG Loss: -33.7636
+
+#Games: 1782 #Frames: 1782000  Train_Max: 362.94  Test_Score: 358.41  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 44.70  PG Loss: -33.8079
+
+#Games: 1793 #Frames: 1793000  Train_Max: 363.13  Test_Score: 359.61  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 69.31  PG Loss: -33.8628
+
+#Games: 1804 #Frames: 1804000  Train_Max: 359.34  Test_Score: 358.68  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 71.17  PG Loss: -33.8423
+
+Progress Saved
+#Games: 1815 #Frames: 1815000  Train_Max: 359.82  Test_Score: 359.47  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 66.58  PG Loss: -33.8052
+
+#Games: 1826 #Frames: 1826000  Train_Max: 362.87  Test_Score: 358.52  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 78.37  PG Loss: -33.7804
+
+#Games: 1837 #Frames: 1837000  Train_Max: 362.24  Test_Score: 358.12  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 65.45  PG Loss: -33.7858
+
+#Games: 1848 #Frames: 1848000  Train_Max: 359.95  Test_Score: 359.43  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 99.65  PG Loss: -33.7855
+
+#Games: 1859 #Frames: 1859000  Train_Max: 361.94  Test_Score: 356.77  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 113.88  PG Loss: -33.7240
+
+Sync from RL --> Nevo
+#Games: 1870 #Frames: 1870000  Train_Max: 365.34  Test_Score: 356.51  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 119.47  PG Loss: -33.7044
+
+#Games: 1881 #Frames: 1881000  Train_Max: 359.67  Test_Score: 359.37  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 94.21  PG Loss: -33.6658
+
+#Games: 1892 #Frames: 1892000  Train_Max: 357.36  Test_Score: 360.64  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 108.58  PG Loss: -33.6214
+
+#Games: 1903 #Frames: 1903000  Train_Max: 363.37  Test_Score: 359.67  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 75.59  PG Loss: -33.5042
+
+#Games: 1914 #Frames: 1914000  Train_Max: 361.53  Test_Score: 356.87  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 161.88  PG Loss: -33.4484
+
+#Games: 1925 #Frames: 1925000  Train_Max: 362.61  Test_Score: 359.35  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 143.43  PG Loss: -33.4201
+
+#Games: 1936 #Frames: 1936000  Train_Max: 359.74  Test_Score: 361.19  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 146.81  PG Loss: -33.3718
+
+#Games: 1947 #Frames: 1947000  Train_Max: 363.83  Test_Score: 360.15  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 154.93  PG Loss: -33.2909
+
+#Games: 1958 #Frames: 1958000  Train_Max: 365.58  Test_Score: 359.02  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 124.20  PG Loss: -33.2238
+
+#Games: 1969 #Frames: 1969000  Train_Max: 360.30  Test_Score: 360.38  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 107.12  PG Loss: -33.1415
+
+Sync from RL --> Nevo
+#Games: 1980 #Frames: 1980000  Train_Max: 360.79  Test_Score: 360.79  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 121.51  PG Loss: -33.0687
+
+#Games: 1991 #Frames: 1991000  Train_Max: 360.59  Test_Score: 359.87  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 105.76  PG Loss: -32.9978
+
+#Games: 2002 #Frames: 2002000  Train_Max: 355.74  Test_Score: 361.47  Avg: 0.00  ENV:  Swimmer-v2  DDPG Reward: 149.14  PG Loss: -32.9568
+
+Progress Saved
+[TensorBoard] Logs saved: parallel_experiments/Swimmer-v2_20250725_044206/seed_100/tensorboard_logs
+[TensorBoard] TensorBoard logs saved and closed
+[SUCCESS] Training completed!
+[TensorBoard] Logs saved: parallel_experiments/Swimmer-v2_20250725_044206/seed_100/tensorboard_logs

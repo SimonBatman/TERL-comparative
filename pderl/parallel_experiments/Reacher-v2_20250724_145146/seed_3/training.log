@@ -1,0 +1,832 @@
+[TensorBoard] Logging enabled: parallel_experiments/Reacher-v2_20250724_145146/seed_3/tensorboard_logs
+[INFO] View training progress: tensorboard --logdir parallel_experiments/Reacher-v2_20250724_145146/seed_3/tensorboard_logs
+[TensorBoard] Using TensorBoard for training logging
+{   'action_dim': 2,
+    'alpha': 0.7,
+    'batch_size': 128,
+    'beta_zero': 0.5,
+    'buffer_size': 1000000,
+    'crossover_prob': 0.0,
+    'device': device(type='cuda'),
+    'distil': False,
+    'distil_type': 'fitness',
+    'elite_fraction': 0.2,
+    'env_name': 'Reacher-v2',
+    'frac_frames_train': 1.0,
+    'gamma': 0.99,
+    'individual_bs': 8000,
+    'learn_start': 15627.0,
+    'log_freq': 10,
+    'log_weights': False,
+    'ls': 128,
+    'mutation_batch_size': 256,
+    'mutation_mag': 0.05,
+    'mutation_noise': False,
+    'mutation_prob': 0.9,
+    'next_save': 200,
+    'ns': False,
+    'ns_epochs': 10,
+    'num_evals': 3,
+    'num_frames': 2000000,
+    'opstat': False,
+    'opstat_freq': 1,
+    'per': False,
+    'pop_size': 10,
+    'proximal_mut': False,
+    'render': False,
+    'replace_old': True,
+    'rl_to_ea_synch_period': 10,
+    'save_foldername': 'parallel_experiments/Reacher-v2_20250724_145146/seed_3',
+    'save_periodic': False,
+    'seed': 3,
+    'state_dim': 11,
+    'tau': 0.001,
+    'tensorboard_dir': None,
+    'test_operators': False,
+    'total_steps': 2000000,
+    'use_done_mask': True,
+    'use_ln': True,
+    'use_tensorboard': True,
+    'verbose_crossover': False,
+    'verbose_mut': False}
+Running Reacher-v2  State_dim: 11  Action_dim: 2
+#Games: 31 #Frames: 1550  Train_Max: -9.72  Test_Score: -11.10  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -12.86  PG Loss: 0.4305
+
+#Games: 62 #Frames: 3100  Train_Max: -9.71  Test_Score: -9.69  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -10.91  PG Loss: 0.6506
+
+#Games: 93 #Frames: 4650  Train_Max: -9.29  Test_Score: -9.31  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -8.51  PG Loss: 0.8566
+
+#Games: 124 #Frames: 6200  Train_Max: -6.14  Test_Score: -10.22  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -8.06  PG Loss: 1.0621
+
+#Games: 155 #Frames: 7750  Train_Max: -9.93  Test_Score: -11.78  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -13.75  PG Loss: 1.2544
+
+#Games: 186 #Frames: 9300  Train_Max: -8.89  Test_Score: -11.28  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -13.06  PG Loss: 1.4468
+
+#Games: 217 #Frames: 10850  Train_Max: -9.04  Test_Score: -11.48  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -12.23  PG Loss: 1.6019
+
+Progress Saved
+#Games: 248 #Frames: 12400  Train_Max: -11.66  Test_Score: -11.51  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -10.60  PG Loss: 1.7970
+
+#Games: 279 #Frames: 13950  Train_Max: -9.69  Test_Score: -8.96  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -10.66  PG Loss: 1.9676
+
+Sync from RL --> Nevo
+#Games: 310 #Frames: 15500  Train_Max: -7.96  Test_Score: -8.22  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -8.38  PG Loss: 2.0859
+
+#Games: 341 #Frames: 17050  Train_Max: -9.11  Test_Score: -6.38  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -9.93  PG Loss: 2.2039
+
+#Games: 372 #Frames: 18600  Train_Max: -7.92  Test_Score: -9.54  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -9.14  PG Loss: 2.2916
+
+#Games: 403 #Frames: 20150  Train_Max: -4.88  Test_Score: -8.19  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.77  PG Loss: 2.3181
+
+Progress Saved
+#Games: 434 #Frames: 21700  Train_Max: -7.32  Test_Score: -7.52  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -9.03  PG Loss: 2.3679
+
+#Games: 465 #Frames: 23250  Train_Max: -9.02  Test_Score: -7.24  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -8.84  PG Loss: 2.4183
+
+#Games: 496 #Frames: 24800  Train_Max: -7.68  Test_Score: -8.85  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -9.72  PG Loss: 2.4637
+
+#Games: 527 #Frames: 26350  Train_Max: -6.77  Test_Score: -10.33  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.50  PG Loss: 2.5001
+
+#Games: 558 #Frames: 27900  Train_Max: -7.13  Test_Score: -8.90  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -10.04  PG Loss: 2.5364
+
+#Games: 589 #Frames: 29450  Train_Max: -7.12  Test_Score: -7.84  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -9.33  PG Loss: 2.5756
+
+Sync from RL --> Nevo
+#Games: 620 #Frames: 31000  Train_Max: -6.91  Test_Score: -12.18  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -9.43  PG Loss: 2.6152
+
+Progress Saved
+#Games: 651 #Frames: 32550  Train_Max: -6.24  Test_Score: -8.36  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -9.39  PG Loss: 2.6339
+
+#Games: 682 #Frames: 34100  Train_Max: -8.73  Test_Score: -11.32  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -8.11  PG Loss: 2.6280
+
+#Games: 713 #Frames: 35650  Train_Max: -9.77  Test_Score: -12.96  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -10.19  PG Loss: 2.6270
+
+#Games: 744 #Frames: 37200  Train_Max: -9.02  Test_Score: -12.06  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.46  PG Loss: 2.6292
+
+#Games: 775 #Frames: 38750  Train_Max: -7.75  Test_Score: -12.23  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.10  PG Loss: 2.6256
+
+#Games: 806 #Frames: 40300  Train_Max: -8.08  Test_Score: -8.71  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -8.80  PG Loss: 2.6292
+
+Progress Saved
+#Games: 837 #Frames: 41850  Train_Max: -9.92  Test_Score: -12.09  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.61  PG Loss: 2.6392
+
+#Games: 868 #Frames: 43400  Train_Max: -8.76  Test_Score: -11.35  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -9.15  PG Loss: 2.6505
+
+#Games: 899 #Frames: 44950  Train_Max: -9.80  Test_Score: -9.26  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.26  PG Loss: 2.6724
+
+Sync from RL --> Nevo
+#Games: 930 #Frames: 46500  Train_Max: -9.25  Test_Score: -10.60  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.47  PG Loss: 2.6878
+
+#Games: 961 #Frames: 48050  Train_Max: -8.85  Test_Score: -9.59  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.73  PG Loss: 2.6786
+
+#Games: 992 #Frames: 49600  Train_Max: -7.49  Test_Score: -12.25  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.71  PG Loss: 2.6869
+
+#Games: 1023 #Frames: 51150  Train_Max: -7.51  Test_Score: -10.00  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.88  PG Loss: 2.6932
+
+Progress Saved
+#Games: 1054 #Frames: 52700  Train_Max: -9.18  Test_Score: -14.63  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.65  PG Loss: 2.7002
+
+#Games: 1085 #Frames: 54250  Train_Max: -6.63  Test_Score: -12.71  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.94  PG Loss: 2.7033
+
+#Games: 1116 #Frames: 55800  Train_Max: -9.49  Test_Score: -11.64  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.59  PG Loss: 2.7099
+
+#Games: 1147 #Frames: 57350  Train_Max: -8.44  Test_Score: -11.51  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.80  PG Loss: 2.7018
+
+#Games: 1178 #Frames: 58900  Train_Max: -6.93  Test_Score: -12.79  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.57  PG Loss: 2.6967
+
+#Games: 1209 #Frames: 60450  Train_Max: -7.92  Test_Score: -11.62  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -9.26  PG Loss: 2.6847
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1240 #Frames: 62000  Train_Max: -7.27  Test_Score: -12.04  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.64  PG Loss: 2.6798
+
+#Games: 1271 #Frames: 63550  Train_Max: -6.82  Test_Score: -8.81  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.99  PG Loss: 2.6817
+
+#Games: 1302 #Frames: 65100  Train_Max: -4.97  Test_Score: -6.70  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.41  PG Loss: 2.6681
+
+#Games: 1333 #Frames: 66650  Train_Max: -5.96  Test_Score: -7.73  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -8.13  PG Loss: 2.6709
+
+#Games: 1364 #Frames: 68200  Train_Max: -6.36  Test_Score: -6.05  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.09  PG Loss: 2.6672
+
+#Games: 1395 #Frames: 69750  Train_Max: -7.42  Test_Score: -6.07  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.10  PG Loss: 2.6677
+
+#Games: 1426 #Frames: 71300  Train_Max: -7.15  Test_Score: -5.86  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.64  PG Loss: 2.6641
+
+Progress Saved
+#Games: 1457 #Frames: 72850  Train_Max: -2.03  Test_Score: -7.31  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.81  PG Loss: 2.6660
+
+#Games: 1488 #Frames: 74400  Train_Max: -5.73  Test_Score: -8.63  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.40  PG Loss: 2.6558
+
+#Games: 1519 #Frames: 75950  Train_Max: -6.13  Test_Score: -7.54  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.79  PG Loss: 2.6517
+
+Sync from RL --> Nevo
+#Games: 1550 #Frames: 77500  Train_Max: -4.80  Test_Score: -8.92  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.98  PG Loss: 2.6474
+
+#Games: 1581 #Frames: 79050  Train_Max: -4.83  Test_Score: -7.99  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.34  PG Loss: 2.6282
+
+#Games: 1612 #Frames: 80600  Train_Max: -6.75  Test_Score: -7.02  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.74  PG Loss: 2.6186
+
+Progress Saved
+#Games: 1643 #Frames: 82150  Train_Max: -5.15  Test_Score: -6.22  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.70  PG Loss: 2.6120
+
+#Games: 1674 #Frames: 83700  Train_Max: -8.00  Test_Score: -6.93  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.50  PG Loss: 2.6114
+
+#Games: 1705 #Frames: 85250  Train_Max: -7.45  Test_Score: -5.01  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.25  PG Loss: 2.6011
+
+#Games: 1736 #Frames: 86800  Train_Max: -5.77  Test_Score: -6.59  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.13  PG Loss: 2.5940
+
+#Games: 1767 #Frames: 88350  Train_Max: -3.90  Test_Score: -7.59  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.98  PG Loss: 2.5739
+
+#Games: 1798 #Frames: 89900  Train_Max: -6.53  Test_Score: -9.32  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.61  PG Loss: 2.5564
+
+#Games: 1829 #Frames: 91450  Train_Max: -7.09  Test_Score: -6.07  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.14  PG Loss: 2.5408
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1860 #Frames: 93000  Train_Max: -7.75  Test_Score: -7.96  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.05  PG Loss: 2.5404
+
+#Games: 1891 #Frames: 94550  Train_Max: -6.31  Test_Score: -7.38  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.47  PG Loss: 2.5197
+
+#Games: 1922 #Frames: 96100  Train_Max: -5.30  Test_Score: -7.38  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.18  PG Loss: 2.4969
+
+#Games: 1953 #Frames: 97650  Train_Max: -8.39  Test_Score: -12.41  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -8.09  PG Loss: 2.4802
+
+#Games: 1984 #Frames: 99200  Train_Max: -8.30  Test_Score: -8.34  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.97  PG Loss: 2.4808
+
+#Games: 2015 #Frames: 100750  Train_Max: -7.38  Test_Score: -6.95  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.07  PG Loss: 2.4628
+
+Progress Saved
+#Games: 2046 #Frames: 102300  Train_Max: -6.20  Test_Score: -6.92  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.34  PG Loss: 2.4431
+
+#Games: 2077 #Frames: 103850  Train_Max: -6.82  Test_Score: -6.77  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.50  PG Loss: 2.4229
+
+#Games: 2108 #Frames: 105400  Train_Max: -5.31  Test_Score: -8.83  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.50  PG Loss: 2.4223
+
+#Games: 2139 #Frames: 106950  Train_Max: -6.12  Test_Score: -7.88  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.51  PG Loss: 2.4038
+
+Sync from RL --> Nevo
+#Games: 2170 #Frames: 108500  Train_Max: -7.57  Test_Score: -8.50  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.99  PG Loss: 2.3884
+
+#Games: 2201 #Frames: 110050  Train_Max: -5.21  Test_Score: -6.76  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.32  PG Loss: 2.3834
+
+Progress Saved
+#Games: 2232 #Frames: 111600  Train_Max: -6.48  Test_Score: -8.01  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.33  PG Loss: 2.3741
+
+#Games: 2263 #Frames: 113150  Train_Max: -6.47  Test_Score: -6.45  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.41  PG Loss: 2.3763
+
+#Games: 2294 #Frames: 114700  Train_Max: -6.86  Test_Score: -6.60  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.80  PG Loss: 2.3663
+
+#Games: 2325 #Frames: 116250  Train_Max: -5.97  Test_Score: -7.35  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.24  PG Loss: 2.3593
+
+#Games: 2356 #Frames: 117800  Train_Max: -10.16  Test_Score: -7.86  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -8.33  PG Loss: 2.3508
+
+#Games: 2387 #Frames: 119350  Train_Max: -7.77  Test_Score: -11.62  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.10  PG Loss: 2.3320
+
+#Games: 2418 #Frames: 120900  Train_Max: -7.13  Test_Score: -12.57  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.10  PG Loss: 2.3259
+
+Progress Saved
+#Games: 2449 #Frames: 122450  Train_Max: -6.51  Test_Score: -6.66  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.12  PG Loss: 2.3160
+
+Sync from RL --> Nevo
+#Games: 2480 #Frames: 124000  Train_Max: -8.39  Test_Score: -7.10  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.63  PG Loss: 2.3150
+
+#Games: 2511 #Frames: 125550  Train_Max: -4.01  Test_Score: -4.02  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.74  PG Loss: 2.3054
+
+#Games: 2542 #Frames: 127100  Train_Max: -6.17  Test_Score: -6.57  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.71  PG Loss: 2.2952
+
+#Games: 2573 #Frames: 128650  Train_Max: -5.35  Test_Score: -4.74  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.01  PG Loss: 2.2939
+
+#Games: 2604 #Frames: 130200  Train_Max: -7.24  Test_Score: -5.97  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.47  PG Loss: 2.2871
+
+Progress Saved
+#Games: 2635 #Frames: 131750  Train_Max: -3.58  Test_Score: -6.30  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.74  PG Loss: 2.2820
+
+#Games: 2666 #Frames: 133300  Train_Max: -5.85  Test_Score: -5.34  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.12  PG Loss: 2.2750
+
+#Games: 2697 #Frames: 134850  Train_Max: -6.63  Test_Score: -5.93  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.15  PG Loss: 2.2634
+
+#Games: 2728 #Frames: 136400  Train_Max: -5.85  Test_Score: -5.91  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.68  PG Loss: 2.2448
+
+#Games: 2759 #Frames: 137950  Train_Max: -5.31  Test_Score: -6.28  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.53  PG Loss: 2.2435
+
+Sync from RL --> Nevo
+#Games: 2790 #Frames: 139500  Train_Max: -6.60  Test_Score: -9.83  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.90  PG Loss: 2.2209
+
+#Games: 2821 #Frames: 141050  Train_Max: -4.46  Test_Score: -6.24  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.70  PG Loss: 2.1996
+
+Progress Saved
+#Games: 2852 #Frames: 142600  Train_Max: -5.41  Test_Score: -4.50  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.02  PG Loss: 2.1978
+
+#Games: 2883 #Frames: 144150  Train_Max: -5.52  Test_Score: -6.10  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.18  PG Loss: 2.1818
+
+#Games: 2914 #Frames: 145700  Train_Max: -3.64  Test_Score: -6.19  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.98  PG Loss: 2.1708
+
+#Games: 2945 #Frames: 147250  Train_Max: -4.80  Test_Score: -5.93  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.74  PG Loss: 2.1683
+
+#Games: 2976 #Frames: 148800  Train_Max: -4.66  Test_Score: -8.06  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.82  PG Loss: 2.1647
+
+#Games: 3007 #Frames: 150350  Train_Max: -5.37  Test_Score: -7.58  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.24  PG Loss: 2.1552
+
+Progress Saved
+#Games: 3038 #Frames: 151900  Train_Max: -6.30  Test_Score: -8.35  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.26  PG Loss: 2.1538
+
+#Games: 3069 #Frames: 153450  Train_Max: -6.89  Test_Score: -7.23  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.52  PG Loss: 2.1529
+
+Sync from RL --> Nevo
+#Games: 3100 #Frames: 155000  Train_Max: -7.70  Test_Score: -6.52  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.66  PG Loss: 2.1537
+
+#Games: 3131 #Frames: 156550  Train_Max: -7.41  Test_Score: -7.98  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.50  PG Loss: 2.1516
+
+#Games: 3162 #Frames: 158100  Train_Max: -6.47  Test_Score: -5.77  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.48  PG Loss: 2.1454
+
+#Games: 3193 #Frames: 159650  Train_Max: -5.36  Test_Score: -6.94  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.06  PG Loss: 2.1457
+
+#Games: 3224 #Frames: 161200  Train_Max: -6.54  Test_Score: -7.00  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.32  PG Loss: 2.1512
+
+Progress Saved
+#Games: 3255 #Frames: 162750  Train_Max: -5.91  Test_Score: -7.71  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.43  PG Loss: 2.1608
+
+#Games: 3286 #Frames: 164300  Train_Max: -5.74  Test_Score: -6.56  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.25  PG Loss: 2.1615
+
+#Games: 3317 #Frames: 165850  Train_Max: -6.03  Test_Score: -8.78  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.69  PG Loss: 2.1721
+
+#Games: 3348 #Frames: 167400  Train_Max: -5.07  Test_Score: -7.32  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.55  PG Loss: 2.1717
+
+#Games: 3379 #Frames: 168950  Train_Max: -5.05  Test_Score: -8.94  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.45  PG Loss: 2.1759
+
+Sync from RL --> Nevo
+#Games: 3410 #Frames: 170500  Train_Max: -4.27  Test_Score: -6.88  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.53  PG Loss: 2.1787
+
+Progress Saved
+#Games: 3441 #Frames: 172050  Train_Max: -5.59  Test_Score: -5.94  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.66  PG Loss: 2.1848
+
+#Games: 3472 #Frames: 173600  Train_Max: -5.18  Test_Score: -5.20  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.36  PG Loss: 2.1864
+
+#Games: 3503 #Frames: 175150  Train_Max: -7.02  Test_Score: -5.26  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.16  PG Loss: 2.1951
+
+#Games: 3534 #Frames: 176700  Train_Max: -4.77  Test_Score: -5.95  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.16  PG Loss: 2.2036
+
+#Games: 3565 #Frames: 178250  Train_Max: -5.54  Test_Score: -4.92  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.47  PG Loss: 2.2033
+
+#Games: 3596 #Frames: 179800  Train_Max: -4.74  Test_Score: -5.93  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.96  PG Loss: 2.2009
+
+#Games: 3627 #Frames: 181350  Train_Max: -5.74  Test_Score: -6.24  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.62  PG Loss: 2.2010
+
+Progress Saved
+#Games: 3658 #Frames: 182900  Train_Max: -5.19  Test_Score: -5.12  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.98  PG Loss: 2.2007
+
+#Games: 3689 #Frames: 184450  Train_Max: -3.73  Test_Score: -5.58  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.21  PG Loss: 2.1978
+
+Sync from RL --> Nevo
+#Games: 3720 #Frames: 186000  Train_Max: -6.93  Test_Score: -5.33  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.76  PG Loss: 2.1896
+
+#Games: 3751 #Frames: 187550  Train_Max: -5.03  Test_Score: -4.70  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.08  PG Loss: 2.1944
+
+#Games: 3782 #Frames: 189100  Train_Max: -3.65  Test_Score: -5.43  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.57  PG Loss: 2.1830
+
+#Games: 3813 #Frames: 190650  Train_Max: -5.13  Test_Score: -5.49  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.12  PG Loss: 2.1819
+
+Progress Saved
+#Games: 3844 #Frames: 192200  Train_Max: -5.26  Test_Score: -5.40  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.44  PG Loss: 2.1827
+
+#Games: 3875 #Frames: 193750  Train_Max: -4.74  Test_Score: -5.39  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.44  PG Loss: 2.1797
+
+#Games: 3906 #Frames: 195300  Train_Max: -4.03  Test_Score: -5.52  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.37  PG Loss: 2.1877
+
+#Games: 3937 #Frames: 196850  Train_Max: -4.47  Test_Score: -6.34  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.00  PG Loss: 2.1860
+
+#Games: 3968 #Frames: 198400  Train_Max: -4.67  Test_Score: -5.39  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.37  PG Loss: 2.1863
+
+#Games: 3999 #Frames: 199950  Train_Max: -5.02  Test_Score: -4.99  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.74  PG Loss: 2.1922
+
+Sync from RL --> Nevo
+#Games: 4030 #Frames: 201500  Train_Max: -4.85  Test_Score: -5.86  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.72  PG Loss: 2.2016
+
+Progress Saved
+#Games: 4061 #Frames: 203050  Train_Max: -5.23  Test_Score: -6.59  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.30  PG Loss: 2.1898
+
+#Games: 4092 #Frames: 204600  Train_Max: -4.36  Test_Score: -7.67  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.51  PG Loss: 2.2019
+
+#Games: 4123 #Frames: 206150  Train_Max: -5.17  Test_Score: -6.07  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.73  PG Loss: 2.2015
+
+#Games: 4154 #Frames: 207700  Train_Max: -4.19  Test_Score: -6.99  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.96  PG Loss: 2.2068
+
+#Games: 4185 #Frames: 209250  Train_Max: -4.74  Test_Score: -4.44  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.16  PG Loss: 2.2014
+
+#Games: 4216 #Frames: 210800  Train_Max: -4.85  Test_Score: -5.12  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.64  PG Loss: 2.2097
+
+Progress Saved
+#Games: 4247 #Frames: 212350  Train_Max: -4.48  Test_Score: -6.51  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.87  PG Loss: 2.2055
+
+#Games: 4278 #Frames: 213900  Train_Max: -6.17  Test_Score: -7.01  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.43  PG Loss: 2.2099
+
+#Games: 4309 #Frames: 215450  Train_Max: -7.04  Test_Score: -8.41  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.99  PG Loss: 2.2118
+
+Sync from RL --> Nevo
+#Games: 4340 #Frames: 217000  Train_Max: -6.61  Test_Score: -7.62  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.10  PG Loss: 2.2046
+
+#Games: 4371 #Frames: 218550  Train_Max: -6.89  Test_Score: -7.42  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.24  PG Loss: 2.2018
+
+#Games: 4402 #Frames: 220100  Train_Max: -6.81  Test_Score: -6.68  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.62  PG Loss: 2.2040
+
+Progress Saved
+#Games: 4433 #Frames: 221650  Train_Max: -6.96  Test_Score: -6.95  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.89  PG Loss: 2.2020
+
+#Games: 4464 #Frames: 223200  Train_Max: -3.40  Test_Score: -4.18  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.85  PG Loss: 2.1959
+
+#Games: 4495 #Frames: 224750  Train_Max: -4.48  Test_Score: -6.03  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.38  PG Loss: 2.1928
+
+#Games: 4526 #Frames: 226300  Train_Max: -5.48  Test_Score: -6.81  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.91  PG Loss: 2.1877
+
+#Games: 4557 #Frames: 227850  Train_Max: -5.58  Test_Score: -4.94  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.47  PG Loss: 2.1814
+
+#Games: 4588 #Frames: 229400  Train_Max: -5.21  Test_Score: -9.94  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.96  PG Loss: 2.1837
+
+#Games: 4619 #Frames: 230950  Train_Max: -5.71  Test_Score: -6.42  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.08  PG Loss: 2.1793
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 4650 #Frames: 232500  Train_Max: -5.84  Test_Score: -6.95  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.86  PG Loss: 2.1731
+
+#Games: 4681 #Frames: 234050  Train_Max: -3.69  Test_Score: -7.44  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.18  PG Loss: 2.1678
+
+#Games: 4712 #Frames: 235600  Train_Max: -4.71  Test_Score: -6.76  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.13  PG Loss: 2.1646
+
+#Games: 4743 #Frames: 237150  Train_Max: -4.70  Test_Score: -5.05  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.78  PG Loss: 2.1601
+
+#Games: 4774 #Frames: 238700  Train_Max: -6.51  Test_Score: -5.05  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.97  PG Loss: 2.1664
+
+#Games: 4805 #Frames: 240250  Train_Max: -4.95  Test_Score: -5.59  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.52  PG Loss: 2.1694
+
+Progress Saved
+#Games: 4836 #Frames: 241800  Train_Max: -3.79  Test_Score: -4.31  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.60  PG Loss: 2.1638
+
+#Games: 4867 #Frames: 243350  Train_Max: -4.23  Test_Score: -6.13  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.73  PG Loss: 2.1699
+
+#Games: 4898 #Frames: 244900  Train_Max: -3.66  Test_Score: -4.98  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.51  PG Loss: 2.1694
+
+#Games: 4929 #Frames: 246450  Train_Max: -4.48  Test_Score: -4.54  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.42  PG Loss: 2.1785
+
+Sync from RL --> Nevo
+#Games: 4960 #Frames: 248000  Train_Max: -4.17  Test_Score: -5.14  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.80  PG Loss: 2.1791
+
+#Games: 4991 #Frames: 249550  Train_Max: -3.87  Test_Score: -5.20  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.45  PG Loss: 2.1774
+
+#Games: 5022 #Frames: 251100  Train_Max: -5.22  Test_Score: -5.56  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.66  PG Loss: 2.1770
+
+Progress Saved
+#Games: 5053 #Frames: 252650  Train_Max: -4.72  Test_Score: -9.20  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.48  PG Loss: 2.1782
+
+#Games: 5084 #Frames: 254200  Train_Max: -6.25  Test_Score: -5.00  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -8.09  PG Loss: 2.1929
+
+#Games: 5115 #Frames: 255750  Train_Max: -7.23  Test_Score: -5.05  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.35  PG Loss: 2.1948
+
+#Games: 5146 #Frames: 257300  Train_Max: -5.10  Test_Score: -4.08  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.78  PG Loss: 2.1929
+
+#Games: 5177 #Frames: 258850  Train_Max: -6.28  Test_Score: -5.41  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.32  PG Loss: 2.1917
+
+#Games: 5208 #Frames: 260400  Train_Max: -5.68  Test_Score: -5.16  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.84  PG Loss: 2.1909
+
+Progress Saved
+#Games: 5239 #Frames: 261950  Train_Max: -4.89  Test_Score: -5.90  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.81  PG Loss: 2.1868
+
+Sync from RL --> Nevo
+#Games: 5270 #Frames: 263500  Train_Max: -6.67  Test_Score: -5.72  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.21  PG Loss: 2.1887
+
+#Games: 5301 #Frames: 265050  Train_Max: -5.64  Test_Score: -5.75  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.78  PG Loss: 2.1918
+
+#Games: 5332 #Frames: 266600  Train_Max: -5.33  Test_Score: -5.17  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.56  PG Loss: 2.1937
+
+#Games: 5363 #Frames: 268150  Train_Max: -5.13  Test_Score: -5.99  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.49  PG Loss: 2.1938
+
+#Games: 5394 #Frames: 269700  Train_Max: -2.78  Test_Score: -4.07  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.91  PG Loss: 2.1898
+
+#Games: 5425 #Frames: 271250  Train_Max: -6.31  Test_Score: -4.69  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.12  PG Loss: 2.1931
+
+Progress Saved
+#Games: 5456 #Frames: 272800  Train_Max: -5.41  Test_Score: -5.37  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.63  PG Loss: 2.1881
+
+#Games: 5487 #Frames: 274350  Train_Max: -5.46  Test_Score: -4.62  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.26  PG Loss: 2.1878
+
+#Games: 5518 #Frames: 275900  Train_Max: -3.29  Test_Score: -6.25  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.15  PG Loss: 2.1815
+
+#Games: 5549 #Frames: 277450  Train_Max: -6.30  Test_Score: -7.47  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.92  PG Loss: 2.1876
+
+Sync from RL --> Nevo
+#Games: 5580 #Frames: 279000  Train_Max: -5.87  Test_Score: -7.69  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.96  PG Loss: 2.1849
+
+#Games: 5611 #Frames: 280550  Train_Max: -4.59  Test_Score: -7.10  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.03  PG Loss: 2.1815
+
+Progress Saved
+#Games: 5642 #Frames: 282100  Train_Max: -4.51  Test_Score: -5.66  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.75  PG Loss: 2.1817
+
+#Games: 5673 #Frames: 283650  Train_Max: -3.89  Test_Score: -6.49  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.11  PG Loss: 2.1816
+
+#Games: 5704 #Frames: 285200  Train_Max: -4.48  Test_Score: -5.30  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.79  PG Loss: 2.1757
+
+#Games: 5735 #Frames: 286750  Train_Max: -5.89  Test_Score: -9.93  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.59  PG Loss: 2.1790
+
+#Games: 5766 #Frames: 288300  Train_Max: -6.38  Test_Score: -5.00  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.30  PG Loss: 2.1752
+
+#Games: 5797 #Frames: 289850  Train_Max: -4.70  Test_Score: -7.37  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.03  PG Loss: 2.1782
+
+#Games: 5828 #Frames: 291400  Train_Max: -6.32  Test_Score: -7.34  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.75  PG Loss: 2.1770
+
+Progress Saved
+#Games: 5859 #Frames: 292950  Train_Max: -5.45  Test_Score: -7.98  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.90  PG Loss: 2.1772
+
+Sync from RL --> Nevo
+#Games: 5890 #Frames: 294500  Train_Max: -5.33  Test_Score: -6.46  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.52  PG Loss: 2.1730
+
+#Games: 5921 #Frames: 296050  Train_Max: -6.01  Test_Score: -5.56  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.03  PG Loss: 2.1788
+
+#Games: 5952 #Frames: 297600  Train_Max: -5.51  Test_Score: -4.64  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.10  PG Loss: 2.1768
+
+#Games: 5983 #Frames: 299150  Train_Max: -5.88  Test_Score: -6.38  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.20  PG Loss: 2.1726
+
+#Games: 6014 #Frames: 300700  Train_Max: -5.62  Test_Score: -5.03  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.58  PG Loss: 2.1720
+
+Progress Saved
+#Games: 6045 #Frames: 302250  Train_Max: -4.30  Test_Score: -4.96  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.33  PG Loss: 2.1700
+
+#Games: 6076 #Frames: 303800  Train_Max: -5.11  Test_Score: -4.73  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.95  PG Loss: 2.1731
+
+#Games: 6107 #Frames: 305350  Train_Max: -2.95  Test_Score: -5.47  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.45  PG Loss: 2.1661
+
+#Games: 6138 #Frames: 306900  Train_Max: -4.52  Test_Score: -4.72  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.02  PG Loss: 2.1671
+
+#Games: 6169 #Frames: 308450  Train_Max: -4.21  Test_Score: -3.85  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.33  PG Loss: 2.1639
+
+Sync from RL --> Nevo
+#Games: 6200 #Frames: 310000  Train_Max: -3.89  Test_Score: -7.17  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.67  PG Loss: 2.1532
+
+#Games: 6231 #Frames: 311550  Train_Max: -4.30  Test_Score: -6.04  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.86  PG Loss: 2.1440
+
+Progress Saved
+#Games: 6262 #Frames: 313100  Train_Max: -4.68  Test_Score: -4.04  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.85  PG Loss: 2.1461
+
+#Games: 6293 #Frames: 314650  Train_Max: -4.26  Test_Score: -4.82  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.80  PG Loss: 2.1348
+
+#Games: 6324 #Frames: 316200  Train_Max: -4.76  Test_Score: -5.83  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.71  PG Loss: 2.1464
+
+#Games: 6355 #Frames: 317750  Train_Max: -5.28  Test_Score: -5.29  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.85  PG Loss: 2.1323
+
+#Games: 6386 #Frames: 319300  Train_Max: -5.75  Test_Score: -3.36  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.41  PG Loss: 2.1295
+
+#Games: 6417 #Frames: 320850  Train_Max: -4.66  Test_Score: -5.30  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.86  PG Loss: 2.1220
+
+Progress Saved
+#Games: 6448 #Frames: 322400  Train_Max: -4.30  Test_Score: -4.65  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.01  PG Loss: 2.1211
+
+#Games: 6479 #Frames: 323950  Train_Max: -4.41  Test_Score: -4.64  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.78  PG Loss: 2.1205
+
+Sync from RL --> Nevo
+#Games: 6510 #Frames: 325500  Train_Max: -5.17  Test_Score: -5.34  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.38  PG Loss: 2.1234
+
+#Games: 6541 #Frames: 327050  Train_Max: -4.82  Test_Score: -6.21  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.39  PG Loss: 2.1183
+
+#Games: 6572 #Frames: 328600  Train_Max: -3.99  Test_Score: -6.43  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.15  PG Loss: 2.1098
+
+#Games: 6603 #Frames: 330150  Train_Max: -4.54  Test_Score: -5.18  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.31  PG Loss: 2.1100
+
+Progress Saved
+#Games: 6634 #Frames: 331700  Train_Max: -3.54  Test_Score: -5.76  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.40  PG Loss: 2.1065
+
+#Games: 6665 #Frames: 333250  Train_Max: -4.63  Test_Score: -6.45  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.62  PG Loss: 2.1170
+
+#Games: 6696 #Frames: 334800  Train_Max: -2.86  Test_Score: -6.52  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.44  PG Loss: 2.1226
+
+#Games: 6727 #Frames: 336350  Train_Max: -3.95  Test_Score: -6.35  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.31  PG Loss: 2.1205
+
+#Games: 6758 #Frames: 337900  Train_Max: -3.54  Test_Score: -6.11  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.39  PG Loss: 2.1248
+
+#Games: 6789 #Frames: 339450  Train_Max: -5.28  Test_Score: -5.76  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.95  PG Loss: 2.1153
+
+Sync from RL --> Nevo
+#Games: 6820 #Frames: 341000  Train_Max: -3.94  Test_Score: -6.24  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.25  PG Loss: 2.1040
+
+Progress Saved
+#Games: 6851 #Frames: 342550  Train_Max: -3.90  Test_Score: -5.70  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.73  PG Loss: 2.1051
+
+#Games: 6882 #Frames: 344100  Train_Max: -5.16  Test_Score: -4.60  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.73  PG Loss: 2.1072
+
+#Games: 6913 #Frames: 345650  Train_Max: -5.24  Test_Score: -5.55  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -7.09  PG Loss: 2.1096
+
+#Games: 6944 #Frames: 347200  Train_Max: -5.36  Test_Score: -5.29  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.58  PG Loss: 2.1018
+
+#Games: 6975 #Frames: 348750  Train_Max: -4.40  Test_Score: -4.75  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.70  PG Loss: 2.0997
+
+#Games: 7006 #Frames: 350300  Train_Max: -5.52  Test_Score: -4.30  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.47  PG Loss: 2.0903
+
+Progress Saved
+#Games: 7037 #Frames: 351850  Train_Max: -5.18  Test_Score: -5.58  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.86  PG Loss: 2.0942
+
+#Games: 7068 #Frames: 353400  Train_Max: -5.11  Test_Score: -5.74  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.35  PG Loss: 2.0944
+
+#Games: 7099 #Frames: 354950  Train_Max: -5.22  Test_Score: -5.28  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.90  PG Loss: 2.0828
+
+Sync from RL --> Nevo
+#Games: 7130 #Frames: 356500  Train_Max: -6.68  Test_Score: -5.37  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.69  PG Loss: 2.0855
+
+#Games: 7161 #Frames: 358050  Train_Max: -5.47  Test_Score: -9.67  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.65  PG Loss: 2.0911
+
+#Games: 7192 #Frames: 359600  Train_Max: -4.26  Test_Score: -6.13  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.11  PG Loss: 2.0901
+
+#Games: 7223 #Frames: 361150  Train_Max: -4.41  Test_Score: -5.66  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.28  PG Loss: 2.0872
+
+Progress Saved
+#Games: 7254 #Frames: 362700  Train_Max: -3.36  Test_Score: -5.64  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.30  PG Loss: 2.0956
+
+#Games: 7285 #Frames: 364250  Train_Max: -6.35  Test_Score: -4.89  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.79  PG Loss: 2.0908
+
+#Games: 7316 #Frames: 365800  Train_Max: -5.93  Test_Score: -7.82  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.92  PG Loss: 2.0957
+
+#Games: 7347 #Frames: 367350  Train_Max: -3.68  Test_Score: -4.23  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.41  PG Loss: 2.0983
+
+#Games: 7378 #Frames: 368900  Train_Max: -4.27  Test_Score: -6.76  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.70  PG Loss: 2.1068
+
+#Games: 7409 #Frames: 370450  Train_Max: -6.00  Test_Score: -4.55  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.77  PG Loss: 2.1006
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 7440 #Frames: 372000  Train_Max: -5.28  Test_Score: -5.35  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.06  PG Loss: 2.1057
+
+#Games: 7471 #Frames: 373550  Train_Max: -5.52  Test_Score: -5.70  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.73  PG Loss: 2.0972
+
+#Games: 7502 #Frames: 375100  Train_Max: -5.48  Test_Score: -6.71  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.13  PG Loss: 2.1012
+
+#Games: 7533 #Frames: 376650  Train_Max: -5.23  Test_Score: -6.03  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.78  PG Loss: 2.1060
+
+#Games: 7564 #Frames: 378200  Train_Max: -4.04  Test_Score: -4.52  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.90  PG Loss: 2.0989
+
+#Games: 7595 #Frames: 379750  Train_Max: -5.77  Test_Score: -5.12  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.81  PG Loss: 2.1046
+
+#Games: 7626 #Frames: 381300  Train_Max: -4.96  Test_Score: -6.64  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.36  PG Loss: 2.1022
+
+Progress Saved
+#Games: 7657 #Frames: 382850  Train_Max: -6.98  Test_Score: -4.41  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.84  PG Loss: 2.1044
+
+#Games: 7688 #Frames: 384400  Train_Max: -3.87  Test_Score: -5.18  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.56  PG Loss: 2.1050
+
+#Games: 7719 #Frames: 385950  Train_Max: -4.98  Test_Score: -5.73  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.88  PG Loss: 2.0979
+
+Sync from RL --> Nevo
+#Games: 7750 #Frames: 387500  Train_Max: -3.68  Test_Score: -4.80  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.53  PG Loss: 2.0984
+
+#Games: 7781 #Frames: 389050  Train_Max: -4.37  Test_Score: -4.61  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.37  PG Loss: 2.0892
+
+#Games: 7812 #Frames: 390600  Train_Max: -5.84  Test_Score: -3.56  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.44  PG Loss: 2.0881
+
+Progress Saved
+#Games: 7843 #Frames: 392150  Train_Max: -4.23  Test_Score: -4.78  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.83  PG Loss: 2.0832
+
+#Games: 7874 #Frames: 393700  Train_Max: -4.61  Test_Score: -5.57  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.00  PG Loss: 2.0801
+
+#Games: 7905 #Frames: 395250  Train_Max: -5.00  Test_Score: -6.39  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.32  PG Loss: 2.0789
+
+#Games: 7936 #Frames: 396800  Train_Max: -3.17  Test_Score: -5.51  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.96  PG Loss: 2.0837
+
+#Games: 7967 #Frames: 398350  Train_Max: -2.83  Test_Score: -5.41  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.69  PG Loss: 2.0830
+
+#Games: 7998 #Frames: 399900  Train_Max: -5.13  Test_Score: -4.82  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.42  PG Loss: 2.0930
+
+#Games: 8029 #Frames: 401450  Train_Max: -5.15  Test_Score: -4.02  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.52  PG Loss: 2.0930
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 8060 #Frames: 403000  Train_Max: -5.38  Test_Score: -6.05  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.09  PG Loss: 2.0880
+
+#Games: 8091 #Frames: 404550  Train_Max: -5.27  Test_Score: -4.49  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.92  PG Loss: 2.0926
+
+#Games: 8122 #Frames: 406100  Train_Max: -4.72  Test_Score: -3.95  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.28  PG Loss: 2.0857
+
+#Games: 8153 #Frames: 407650  Train_Max: -4.12  Test_Score: -4.89  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.70  PG Loss: 2.0901
+
+#Games: 8184 #Frames: 409200  Train_Max: -2.62  Test_Score: -6.36  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.30  PG Loss: 2.0847
+
+#Games: 8215 #Frames: 410750  Train_Max: -4.80  Test_Score: -6.12  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.03  PG Loss: 2.0871
+
+Progress Saved
+#Games: 8246 #Frames: 412300  Train_Max: -3.71  Test_Score: -6.00  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.30  PG Loss: 2.0979
+
+#Games: 8277 #Frames: 413850  Train_Max: -4.60  Test_Score: -4.02  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.03  PG Loss: 2.1036
+
+#Games: 8308 #Frames: 415400  Train_Max: -5.38  Test_Score: -4.98  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.56  PG Loss: 2.0915
+
+#Games: 8339 #Frames: 416950  Train_Max: -4.96  Test_Score: -4.79  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.26  PG Loss: 2.0973
+
+Sync from RL --> Nevo
+#Games: 8370 #Frames: 418500  Train_Max: -3.51  Test_Score: -5.25  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.89  PG Loss: 2.0884
+
+#Games: 8401 #Frames: 420050  Train_Max: -4.77  Test_Score: -5.05  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.35  PG Loss: 2.0878
+
+Progress Saved
+#Games: 8432 #Frames: 421600  Train_Max: -4.40  Test_Score: -4.02  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.77  PG Loss: 2.0873
+
+#Games: 8463 #Frames: 423150  Train_Max: -4.01  Test_Score: -4.87  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.77  PG Loss: 2.0893
+
+#Games: 8494 #Frames: 424700  Train_Max: -5.29  Test_Score: -8.27  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.07  PG Loss: 2.0881
+
+#Games: 8525 #Frames: 426250  Train_Max: -6.23  Test_Score: -8.15  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.70  PG Loss: 2.0815
+
+#Games: 8556 #Frames: 427800  Train_Max: -5.47  Test_Score: -6.92  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.49  PG Loss: 2.0821
+
+#Games: 8587 #Frames: 429350  Train_Max: -7.17  Test_Score: -7.02  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.77  PG Loss: 2.0823
+
+#Games: 8618 #Frames: 430900  Train_Max: -6.17  Test_Score: -5.91  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.16  PG Loss: 2.0858
+
+Progress Saved
+#Games: 8649 #Frames: 432450  Train_Max: -5.25  Test_Score: -7.32  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.39  PG Loss: 2.0899
+
+Sync from RL --> Nevo
+#Games: 8680 #Frames: 434000  Train_Max: -5.55  Test_Score: -7.91  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.81  PG Loss: 2.0880
+
+#Games: 8711 #Frames: 435550  Train_Max: -4.35  Test_Score: -5.07  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.84  PG Loss: 2.0866
+
+#Games: 8742 #Frames: 437100  Train_Max: -5.22  Test_Score: -5.34  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.53  PG Loss: 2.0886
+
+#Games: 8773 #Frames: 438650  Train_Max: -4.81  Test_Score: -5.86  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.63  PG Loss: 2.0936
+
+#Games: 8804 #Frames: 440200  Train_Max: -4.95  Test_Score: -2.74  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.18  PG Loss: 2.1010
+
+Progress Saved
+#Games: 8835 #Frames: 441750  Train_Max: -3.58  Test_Score: -4.32  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.40  PG Loss: 2.0891
+
+#Games: 8866 #Frames: 443300  Train_Max: -3.73  Test_Score: -5.33  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.72  PG Loss: 2.0894
+
+#Games: 8897 #Frames: 444850  Train_Max: -2.91  Test_Score: -4.72  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.74  PG Loss: 2.0738
+
+#Games: 8928 #Frames: 446400  Train_Max: -3.68  Test_Score: -4.66  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.79  PG Loss: 2.0787
+
+#Games: 8959 #Frames: 447950  Train_Max: -3.34  Test_Score: -5.33  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.16  PG Loss: 2.0701
+
+Sync from RL --> Nevo
+#Games: 8990 #Frames: 449500  Train_Max: -4.28  Test_Score: -3.92  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.52  PG Loss: 2.0717
+
+#Games: 9021 #Frames: 451050  Train_Max: -4.98  Test_Score: -4.47  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.19  PG Loss: 2.0690
+
+Progress Saved
+#Games: 9052 #Frames: 452600  Train_Max: -4.01  Test_Score: -4.10  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.20  PG Loss: 2.0602
+
+#Games: 9083 #Frames: 454150  Train_Max: -3.49  Test_Score: -4.85  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.28  PG Loss: 2.0607
+
+#Games: 9114 #Frames: 455700  Train_Max: -5.08  Test_Score: -4.21  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.97  PG Loss: 2.0612
+
+#Games: 9145 #Frames: 457250  Train_Max: -4.32  Test_Score: -5.33  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.64  PG Loss: 2.0580
+
+#Games: 9176 #Frames: 458800  Train_Max: -6.02  Test_Score: -6.63  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.47  PG Loss: 2.0528
+
+#Games: 9207 #Frames: 460350  Train_Max: -5.37  Test_Score: -4.42  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.01  PG Loss: 2.0537
+
+Progress Saved
+#Games: 9238 #Frames: 461900  Train_Max: -4.28  Test_Score: -4.86  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.14  PG Loss: 2.0510
+
+#Games: 9269 #Frames: 463450  Train_Max: -2.93  Test_Score: -5.65  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.62  PG Loss: 2.0540
+
+Sync from RL --> Nevo
+#Games: 9300 #Frames: 465000  Train_Max: -3.98  Test_Score: -5.75  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.76  PG Loss: 2.0536
+
+#Games: 9331 #Frames: 466550  Train_Max: -3.72  Test_Score: -4.74  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.83  PG Loss: 2.0490
+
+#Games: 9362 #Frames: 468100  Train_Max: -4.45  Test_Score: -4.06  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.66  PG Loss: 2.0473
+
+#Games: 9393 #Frames: 469650  Train_Max: -4.76  Test_Score: -4.81  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.77  PG Loss: 2.0533
+
+#Games: 9424 #Frames: 471200  Train_Max: -5.18  Test_Score: -4.38  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.82  PG Loss: 2.0468
+
+Progress Saved
+#Games: 9455 #Frames: 472750  Train_Max: -4.96  Test_Score: -5.23  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.18  PG Loss: 2.0463
+
+#Games: 9486 #Frames: 474300  Train_Max: -3.79  Test_Score: -5.32  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.47  PG Loss: 2.0414
+
+#Games: 9517 #Frames: 475850  Train_Max: -3.92  Test_Score: -5.54  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.97  PG Loss: 2.0366
+
+#Games: 9548 #Frames: 477400  Train_Max: -4.91  Test_Score: -4.52  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.06  PG Loss: 2.0352
+
+#Games: 9579 #Frames: 478950  Train_Max: -5.90  Test_Score: -5.32  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.30  PG Loss: 2.0331
+
+Sync from RL --> Nevo
+#Games: 9610 #Frames: 480500  Train_Max: -5.74  Test_Score: -6.10  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.86  PG Loss: 2.0381
+
+Progress Saved
+#Games: 9641 #Frames: 482050  Train_Max: -3.84  Test_Score: -4.89  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.55  PG Loss: 2.0275
+
+#Games: 9672 #Frames: 483600  Train_Max: -5.15  Test_Score: -4.51  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -3.97  PG Loss: 2.0243
+
+#Games: 9703 #Frames: 485150  Train_Max: -4.22  Test_Score: -5.00  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.52  PG Loss: 2.0308
+
+#Games: 9734 #Frames: 486700  Train_Max: -5.11  Test_Score: -4.59  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.39  PG Loss: 2.0333
+
+#Games: 9765 #Frames: 488250  Train_Max: -4.61  Test_Score: -6.05  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.01  PG Loss: 2.0332
+
+#Games: 9796 #Frames: 489800  Train_Max: -4.13  Test_Score: -5.72  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.53  PG Loss: 2.0271
+
+#Games: 9827 #Frames: 491350  Train_Max: -4.67  Test_Score: -3.67  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.78  PG Loss: 2.0338
+
+Progress Saved
+#Games: 9858 #Frames: 492900  Train_Max: -4.14  Test_Score: -5.53  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.86  PG Loss: 2.0334
+
+#Games: 9889 #Frames: 494450  Train_Max: -3.56  Test_Score: -4.38  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.44  PG Loss: 2.0288
+
+Sync from RL --> Nevo
+#Games: 9920 #Frames: 496000  Train_Max: -5.85  Test_Score: -6.17  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.66  PG Loss: 2.0248
+
+#Games: 9951 #Frames: 497550  Train_Max: -3.87  Test_Score: -4.36  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.26  PG Loss: 2.0211
+
+#Games: 9982 #Frames: 499100  Train_Max: -5.84  Test_Score: -6.19  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.04  PG Loss: 2.0265
+
+#Games: 10013 #Frames: 500650  Train_Max: -5.01  Test_Score: -4.74  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.12  PG Loss: 2.0248
+
+Progress Saved
+#Games: 10044 #Frames: 502200  Train_Max: -6.33  Test_Score: -5.14  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.38  PG Loss: 2.0171
+
+#Games: 10075 #Frames: 503750  Train_Max: -3.95  Test_Score: -3.76  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.97  PG Loss: 2.0261
+
+#Games: 10106 #Frames: 505300  Train_Max: -3.54  Test_Score: -5.51  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.67  PG Loss: 2.0192
+
+#Games: 10137 #Frames: 506850  Train_Max: -5.18  Test_Score: -4.03  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.79  PG Loss: 2.0302
+
+#Games: 10168 #Frames: 508400  Train_Max: -3.73  Test_Score: -5.15  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.45  PG Loss: 2.0328
+
+#Games: 10199 #Frames: 509950  Train_Max: -3.88  Test_Score: -5.56  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.29  PG Loss: 2.0245
+
+Sync from RL --> Nevo
+#Games: 10230 #Frames: 511500  Train_Max: -6.73  Test_Score: -4.33  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.48  PG Loss: 2.0254
+
+Progress Saved
+#Games: 10261 #Frames: 513050  Train_Max: -4.57  Test_Score: -4.75  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.43  PG Loss: 2.0198
+
+#Games: 10292 #Frames: 514600  Train_Max: -4.20  Test_Score: -4.42  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.32  PG Loss: 2.0199
+
+#Games: 10323 #Frames: 516150  Train_Max: -4.54  Test_Score: -4.71  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.81  PG Loss: 2.0126
+
+#Games: 10354 #Frames: 517700  Train_Max: -3.82  Test_Score: -6.34  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.11  PG Loss: 2.0108
+
+#Games: 10385 #Frames: 519250  Train_Max: -3.84  Test_Score: -6.43  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.11  PG Loss: 2.0149
+
+#Games: 10416 #Frames: 520800  Train_Max: -3.18  Test_Score: -3.98  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.32  PG Loss: 2.0108
+
+Progress Saved
+#Games: 10447 #Frames: 522350  Train_Max: -5.50  Test_Score: -6.64  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.74  PG Loss: 2.0102
+
+#Games: 10478 #Frames: 523900  Train_Max: -4.52  Test_Score: -5.53  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.15  PG Loss: 2.0093
+
+#Games: 10509 #Frames: 525450  Train_Max: -4.67  Test_Score: -7.67  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.75  PG Loss: 2.0076
+
+Sync from RL --> Nevo
+#Games: 10540 #Frames: 527000  Train_Max: -4.71  Test_Score: -6.21  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.07  PG Loss: 2.0113
+
+#Games: 10571 #Frames: 528550  Train_Max: -4.16  Test_Score: -7.41  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.59  PG Loss: 2.0105
+
+#Games: 10602 #Frames: 530100  Train_Max: -3.89  Test_Score: -6.06  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -6.03  PG Loss: 2.0113
+
+Progress Saved
+#Games: 10633 #Frames: 531650  Train_Max: -2.70  Test_Score: -5.44  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -4.37  PG Loss: 2.0103
+
+#Games: 10664 #Frames: 533200  Train_Max: -4.10  Test_Score: -4.14  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.73  PG Loss: 2.0130
+
+#Games: 10695 #Frames: 534750  Train_Max: -4.98  Test_Score: -5.53  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.45  PG Loss: 2.0133
+
+#Games: 10726 #Frames: 536300  Train_Max: -3.59  Test_Score: -5.90  Avg: 0.00  ENV:  Reacher-v2  DDPG Reward: -5.39  PG Loss: 2.0112
+
+#Games: 10757 #Frames: 537850  Train_Max: -4.54  Test_Score: -3.92  Avg: 0.00  ENV:  Reacher-v2
