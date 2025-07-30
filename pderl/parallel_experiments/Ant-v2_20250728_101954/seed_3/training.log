@@ -1,0 +1,578 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+[TensorBoard] Logging enabled: parallel_experiments/Ant-v2_20250728_101954/seed_3/tensorboard_logs
+[INFO] View training progress: tensorboard --logdir parallel_experiments/Ant-v2_20250728_101954/seed_3/tensorboard_logs
+[TensorBoard] Using TensorBoard for training logging
+{   'action_dim': 8,
+    'alpha': 0.7,
+    'batch_size': 128,
+    'beta_zero': 0.5,
+    'buffer_size': 1000000,
+    'crossover_prob': 0.0,
+    'device': device(type='cuda'),
+    'distil': False,
+    'distil_type': 'fitness',
+    'elite_fraction': 0.2,
+    'env_name': 'Ant-v2',
+    'frac_frames_train': 1.0,
+    'gamma': 0.99,
+    'individual_bs': 8000,
+    'learn_start': 15627.0,
+    'log_freq': 10,
+    'log_weights': False,
+    'ls': 128,
+    'mutation_batch_size': 256,
+    'mutation_mag': 0.05,
+    'mutation_noise': False,
+    'mutation_prob': 0.9,
+    'next_save': 200,
+    'ns': False,
+    'ns_epochs': 10,
+    'num_evals': 1,
+    'num_frames': 6000000,
+    'opstat': False,
+    'opstat_freq': 1,
+    'per': False,
+    'pop_size': 10,
+    'proximal_mut': False,
+    'render': False,
+    'replace_old': True,
+    'rl_to_ea_synch_period': 1,
+    'save_foldername': 'parallel_experiments/Ant-v2_20250728_101954/seed_3',
+    'save_periodic': False,
+    'seed': 3,
+    'state_dim': 111,
+    'tau': 0.001,
+    'tensorboard_dir': None,
+    'test_operators': False,
+    'total_steps': 6000000,
+    'use_done_mask': True,
+    'use_ln': True,
+    'use_tensorboard': True,
+    'verbose_crossover': False,
+    'verbose_mut': False}
+Running Ant-v2  State_dim: 111  Action_dim: 8
+Sync from RL --> Nevo
+#Games: 11 #Frames: 7310  Train_Max: 609.26  Test_Score: 78.72  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 338.40  PG Loss: -5.8044
+
+Sync from RL --> Nevo
+#Games: 22 #Frames: 14099  Train_Max: 643.15  Test_Score: 398.01  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 189.55  PG Loss: -16.4956
+
+Sync from RL --> Nevo
+#Games: 33 #Frames: 21940  Train_Max: 675.08  Test_Score: 452.27  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 334.99  PG Loss: -29.1115
+
+Sync from RL --> Nevo
+#Games: 44 #Frames: 29133  Train_Max: 731.17  Test_Score: 573.25  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 225.83  PG Loss: -41.2470
+
+Sync from RL --> Nevo
+#Games: 55 #Frames: 36547  Train_Max: 693.52  Test_Score: 170.52  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: -229.33  PG Loss: -52.8652
+
+Sync from RL --> Nevo
+#Games: 66 #Frames: 42937  Train_Max: 734.14  Test_Score: 33.88  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: -90.99  PG Loss: -64.2435
+
+Sync from RL --> Nevo
+#Games: 77 #Frames: 51150  Train_Max: 682.67  Test_Score: -579.18  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: -138.14  PG Loss: -73.4837
+
+Sync from RL --> Nevo
+#Games: 88 #Frames: 59244  Train_Max: 712.29  Test_Score: 87.83  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: -13.26  PG Loss: -85.3271
+
+Sync from RL --> Nevo
+#Games: 99 #Frames: 64027  Train_Max: 559.79  Test_Score: 145.74  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: -192.24  PG Loss: -94.1123
+
+Sync from RL --> Nevo
+#Games: 110 #Frames: 71386  Train_Max: 688.93  Test_Score: 194.12  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: -210.10  PG Loss: -101.3364
+
+Sync from RL --> Nevo
+#Games: 121 #Frames: 76299  Train_Max: 865.59  Test_Score: 636.32  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 17.62  PG Loss: -108.9894
+
+Sync from RL --> Nevo
+#Games: 132 #Frames: 86200  Train_Max: 769.78  Test_Score: 179.99  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 382.61  PG Loss: -115.9749
+
+Sync from RL --> Nevo
+#Games: 143 #Frames: 92385  Train_Max: 905.07  Test_Score: 648.56  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 318.14  PG Loss: -121.8492
+
+Sync from RL --> Nevo
+#Games: 154 #Frames: 100035  Train_Max: 770.30  Test_Score: 656.80  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 61.68  PG Loss: -127.6306
+
+Sync from RL --> Nevo
+#Games: 165 #Frames: 108214  Train_Max: 716.57  Test_Score: 651.78  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 183.29  PG Loss: -132.6188
+
+Sync from RL --> Nevo
+#Games: 176 #Frames: 117309  Train_Max: 752.13  Test_Score: 617.33  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 434.57  PG Loss: -137.3790
+
+Sync from RL --> Nevo
+#Games: 187 #Frames: 126596  Train_Max: 839.30  Test_Score: 314.58  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 422.11  PG Loss: -141.7241
+
+Sync from RL --> Nevo
+#Games: 198 #Frames: 137304  Train_Max: 744.91  Test_Score: 394.19  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 510.84  PG Loss: -145.3570
+
+Sync from RL --> Nevo
+#Games: 209 #Frames: 141520  Train_Max: 714.27  Test_Score: 312.29  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 879.44  PG Loss: -148.5235
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 220 #Frames: 147972  Train_Max: 777.34  Test_Score: 743.18  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 488.16  PG Loss: -150.3899
+
+Sync from RL --> Nevo
+#Games: 231 #Frames: 153361  Train_Max: 847.74  Test_Score: 459.57  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 101.80  PG Loss: -151.5407
+
+Sync from RL --> Nevo
+#Games: 242 #Frames: 160484  Train_Max: 867.51  Test_Score: 535.75  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 136.06  PG Loss: -152.5406
+
+Sync from RL --> Nevo
+#Games: 253 #Frames: 168552  Train_Max: 808.86  Test_Score: 423.01  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 115.89  PG Loss: -154.2640
+
+Sync from RL --> Nevo
+#Games: 264 #Frames: 174557  Train_Max: 831.32  Test_Score: 751.65  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 311.97  PG Loss: -156.0853
+
+Sync from RL --> Nevo
+#Games: 275 #Frames: 182460  Train_Max: 715.29  Test_Score: 639.99  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 293.26  PG Loss: -158.0641
+
+Sync from RL --> Nevo
+#Games: 286 #Frames: 190000  Train_Max: 653.89  Test_Score: 586.58  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 513.75  PG Loss: -159.1865
+
+Sync from RL --> Nevo
+#Games: 297 #Frames: 199906  Train_Max: 995.89  Test_Score: 563.53  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 423.91  PG Loss: -160.8726
+
+Sync from RL --> Nevo
+#Games: 308 #Frames: 207212  Train_Max: 749.31  Test_Score: 413.65  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 703.99  PG Loss: -161.2020
+
+Sync from RL --> Nevo
+#Games: 319 #Frames: 216396  Train_Max: 928.88  Test_Score: 544.09  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 348.89  PG Loss: -160.9823
+
+Sync from RL --> Nevo
+#Games: 330 #Frames: 225469  Train_Max: 862.21  Test_Score: 648.57  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 340.15  PG Loss: -161.4177
+
+Sync from RL --> Nevo
+#Games: 341 #Frames: 233774  Train_Max: 883.50  Test_Score: 634.93  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 149.95  PG Loss: -161.6164
+
+Sync from RL --> Nevo
+#Games: 352 #Frames: 241044  Train_Max: 954.34  Test_Score: 703.97  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 497.36  PG Loss: -162.7270
+
+Sync from RL --> Nevo
+#Games: 363 #Frames: 250509  Train_Max: 966.84  Test_Score: 639.76  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 242.53  PG Loss: -163.7352
+
+Sync from RL --> Nevo
+#Games: 374 #Frames: 258880  Train_Max: 720.45  Test_Score: 622.44  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 794.01  PG Loss: -164.1924
+
+Sync from RL --> Nevo
+#Games: 385 #Frames: 269386  Train_Max: 758.21  Test_Score: 794.71  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 576.87  PG Loss: -165.9174
+
+Sync from RL --> Nevo
+#Games: 396 #Frames: 278745  Train_Max: 1621.72  Test_Score: 871.18  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 858.08  PG Loss: -166.4870
+
+Sync from RL --> Nevo
+#Games: 407 #Frames: 287870  Train_Max: 1121.60  Test_Score: 852.64  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 819.40  PG Loss: -167.2118
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 418 #Frames: 297888  Train_Max: 891.25  Test_Score: 896.72  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 494.17  PG Loss: -167.3949
+
+Sync from RL --> Nevo
+#Games: 429 #Frames: 307909  Train_Max: 1131.48  Test_Score: 820.98  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 463.58  PG Loss: -168.4304
+
+Sync from RL --> Nevo
+#Games: 440 #Frames: 315754  Train_Max: 997.71  Test_Score: 825.26  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 505.47  PG Loss: -168.9930
+
+Sync from RL --> Nevo
+#Games: 451 #Frames: 323436  Train_Max: 1030.75  Test_Score: 199.31  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 850.59  PG Loss: -168.9781
+
+Sync from RL --> Nevo
+#Games: 462 #Frames: 330246  Train_Max: 1000.78  Test_Score: 448.15  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 487.42  PG Loss: -168.7046
+
+Sync from RL --> Nevo
+#Games: 473 #Frames: 338434  Train_Max: 968.28  Test_Score: 881.11  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 524.78  PG Loss: -168.4213
+
+Sync from RL --> Nevo
+#Games: 484 #Frames: 347182  Train_Max: 1130.83  Test_Score: 292.63  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 472.79  PG Loss: -168.6397
+
+Sync from RL --> Nevo
+#Games: 495 #Frames: 356809  Train_Max: 1138.46  Test_Score: 571.02  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 164.45  PG Loss: -169.8205
+
+Sync from RL --> Nevo
+#Games: 506 #Frames: 364978  Train_Max: 679.78  Test_Score: 606.43  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 600.52  PG Loss: -170.3650
+
+Sync from RL --> Nevo
+#Games: 517 #Frames: 373821  Train_Max: 1152.98  Test_Score: 572.75  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 546.26  PG Loss: -170.8980
+
+Sync from RL --> Nevo
+#Games: 528 #Frames: 383026  Train_Max: 797.16  Test_Score: 252.77  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 559.39  PG Loss: -171.5161
+
+Sync from RL --> Nevo
+#Games: 539 #Frames: 391508  Train_Max: 758.68  Test_Score: 543.60  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 420.31  PG Loss: -172.3114
+
+Sync from RL --> Nevo
+#Games: 550 #Frames: 398461  Train_Max: 995.23  Test_Score: 880.75  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 328.78  PG Loss: -172.8131
+
+Sync from RL --> Nevo
+#Games: 561 #Frames: 406781  Train_Max: 1338.61  Test_Score: 586.90  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 663.81  PG Loss: -173.3344
+
+Sync from RL --> Nevo
+#Games: 572 #Frames: 413080  Train_Max: 961.56  Test_Score: 654.36  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 92.97  PG Loss: -173.9329
+
+Sync from RL --> Nevo
+#Games: 583 #Frames: 420353  Train_Max: 811.13  Test_Score: 354.83  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 450.05  PG Loss: -174.7632
+
+Sync from RL --> Nevo
+#Games: 594 #Frames: 427610  Train_Max: 681.00  Test_Score: 353.26  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 392.55  PG Loss: -175.9341
+
+Sync from RL --> Nevo
+#Games: 605 #Frames: 434670  Train_Max: 737.89  Test_Score: 354.05  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 513.59  PG Loss: -176.3756
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 616 #Frames: 440131  Train_Max: 952.19  Test_Score: 490.79  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 500.65  PG Loss: -176.5454
+
+Sync from RL --> Nevo
+#Games: 627 #Frames: 446280  Train_Max: 1257.42  Test_Score: 882.04  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 887.40  PG Loss: -176.6425
+
+Sync from RL --> Nevo
+#Games: 638 #Frames: 454851  Train_Max: 987.91  Test_Score: 970.75  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 594.18  PG Loss: -176.5058
+
+Sync from RL --> Nevo
+#Games: 649 #Frames: 461033  Train_Max: 606.24  Test_Score: 468.90  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 506.23  PG Loss: -176.7728
+
+Sync from RL --> Nevo
+#Games: 660 #Frames: 468866  Train_Max: 676.11  Test_Score: 440.20  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 833.75  PG Loss: -177.4036
+
+Sync from RL --> Nevo
+#Games: 671 #Frames: 476166  Train_Max: 1284.65  Test_Score: 820.77  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 524.96  PG Loss: -178.1018
+
+Sync from RL --> Nevo
+#Games: 682 #Frames: 484397  Train_Max: 1283.33  Test_Score: 1211.97  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 306.31  PG Loss: -179.0371
+
+Sync from RL --> Nevo
+#Games: 693 #Frames: 490945  Train_Max: 911.11  Test_Score: 572.86  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 673.09  PG Loss: -179.5262
+
+Sync from RL --> Nevo
+#Games: 704 #Frames: 499268  Train_Max: 1257.34  Test_Score: 593.30  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 451.58  PG Loss: -179.9794
+
+Sync from RL --> Nevo
+#Games: 715 #Frames: 510268  Train_Max: 1050.72  Test_Score: 354.79  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 366.49  PG Loss: -180.2948
+
+Sync from RL --> Nevo
+#Games: 726 #Frames: 519101  Train_Max: 2078.71  Test_Score: 529.55  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 461.53  PG Loss: -181.2054
+
+Sync from RL --> Nevo
+#Games: 737 #Frames: 528737  Train_Max: 1341.08  Test_Score: 342.99  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 488.24  PG Loss: -181.5184
+
+Sync from RL --> Nevo
+#Games: 748 #Frames: 536458  Train_Max: 1224.04  Test_Score: 1007.68  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 378.14  PG Loss: -181.8997
+
+Sync from RL --> Nevo
+#Games: 759 #Frames: 545711  Train_Max: 1321.53  Test_Score: 608.78  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 372.85  PG Loss: -181.7800
+
+Sync from RL --> Nevo
+#Games: 770 #Frames: 550536  Train_Max: 1087.04  Test_Score: 768.34  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 242.97  PG Loss: -182.5954
+
+Sync from RL --> Nevo
+#Games: 781 #Frames: 558723  Train_Max: 1018.19  Test_Score: 961.48  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 704.61  PG Loss: -183.1348
+
+Sync from RL --> Nevo
+#Games: 792 #Frames: 565531  Train_Max: 1032.44  Test_Score: 942.67  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 542.17  PG Loss: -183.6737
+
+Sync from RL --> Nevo
+#Games: 803 #Frames: 573954  Train_Max: 1234.31  Test_Score: 773.04  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 394.14  PG Loss: -184.8119
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 814 #Frames: 583454  Train_Max: 1186.99  Test_Score: 1112.24  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 713.27  PG Loss: -185.9086
+
+Sync from RL --> Nevo
+#Games: 825 #Frames: 591837  Train_Max: 1492.91  Test_Score: 1003.25  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 599.18  PG Loss: -186.8107
+
+Sync from RL --> Nevo
+#Games: 836 #Frames: 598134  Train_Max: 1621.53  Test_Score: 1389.40  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 427.43  PG Loss: -187.6394
+
+Sync from RL --> Nevo
+#Games: 847 #Frames: 604700  Train_Max: 1228.34  Test_Score: 1028.52  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 329.81  PG Loss: -188.2904
+
+Sync from RL --> Nevo
+#Games: 858 #Frames: 612736  Train_Max: 1697.41  Test_Score: 1223.56  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 793.58  PG Loss: -189.1144
+
+Sync from RL --> Nevo
+#Games: 869 #Frames: 621704  Train_Max: 1469.76  Test_Score: 1052.56  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1306.38  PG Loss: -189.9637
+
+Sync from RL --> Nevo
+#Games: 880 #Frames: 630383  Train_Max: 1401.10  Test_Score: 888.64  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 624.32  PG Loss: -190.9284
+
+Sync from RL --> Nevo
+#Games: 891 #Frames: 637795  Train_Max: 1347.06  Test_Score: 971.06  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 498.00  PG Loss: -191.6866
+
+Sync from RL --> Nevo
+#Games: 902 #Frames: 646867  Train_Max: 1131.57  Test_Score: 293.09  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1174.63  PG Loss: -193.0947
+
+Sync from RL --> Nevo
+#Games: 913 #Frames: 652542  Train_Max: 1603.84  Test_Score: 919.51  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 514.33  PG Loss: -194.7429
+
+Sync from RL --> Nevo
+#Games: 924 #Frames: 662309  Train_Max: 2677.93  Test_Score: 534.42  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 668.46  PG Loss: -196.0886
+
+Sync from RL --> Nevo
+#Games: 935 #Frames: 670006  Train_Max: 978.53  Test_Score: 882.04  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 830.62  PG Loss: -197.6475
+
+Sync from RL --> Nevo
+#Games: 946 #Frames: 675493  Train_Max: 1857.22  Test_Score: 1041.86  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 627.46  PG Loss: -198.3936
+
+Sync from RL --> Nevo
+#Games: 957 #Frames: 683698  Train_Max: 938.66  Test_Score: 147.81  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 912.78  PG Loss: -198.9388
+
+Sync from RL --> Nevo
+#Games: 968 #Frames: 689659  Train_Max: 1125.68  Test_Score: 552.42  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1124.99  PG Loss: -200.0784
+
+Sync from RL --> Nevo
+#Games: 979 #Frames: 700191  Train_Max: 1421.18  Test_Score: 1374.17  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 851.14  PG Loss: -200.7002
+
+Sync from RL --> Nevo
+#Games: 990 #Frames: 706043  Train_Max: 1257.99  Test_Score: 658.66  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1146.30  PG Loss: -201.6740
+
+Sync from RL --> Nevo
+#Games: 1001 #Frames: 715177  Train_Max: 2494.31  Test_Score: 754.62  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1654.88  PG Loss: -202.3221
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1012 #Frames: 721813  Train_Max: 1251.49  Test_Score: 671.97  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 763.61  PG Loss: -202.9133
+
+Sync from RL --> Nevo
+#Games: 1023 #Frames: 729537  Train_Max: 874.28  Test_Score: 467.02  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 868.38  PG Loss: -203.4613
+
+Sync from RL --> Nevo
+#Games: 1034 #Frames: 737586  Train_Max: 1434.77  Test_Score: 950.56  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 465.79  PG Loss: -204.5373
+
+Sync from RL --> Nevo
+#Games: 1045 #Frames: 744135  Train_Max: 1023.48  Test_Score: 566.66  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 641.05  PG Loss: -205.4680
+
+Sync from RL --> Nevo
+#Games: 1056 #Frames: 750267  Train_Max: 1130.69  Test_Score: 1231.41  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1080.86  PG Loss: -206.5887
+
+Sync from RL --> Nevo
+#Games: 1067 #Frames: 757270  Train_Max: 1742.32  Test_Score: 843.68  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 821.80  PG Loss: -207.7197
+
+Sync from RL --> Nevo
+#Games: 1078 #Frames: 764043  Train_Max: 1301.57  Test_Score: 315.50  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1200.95  PG Loss: -208.4491
+
+Sync from RL --> Nevo
+#Games: 1089 #Frames: 770618  Train_Max: 2581.23  Test_Score: 1546.20  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1068.33  PG Loss: -209.6183
+
+Sync from RL --> Nevo
+#Games: 1100 #Frames: 775943  Train_Max: 1050.91  Test_Score: 346.07  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 471.61  PG Loss: -210.2363
+
+Sync from RL --> Nevo
+#Games: 1111 #Frames: 784842  Train_Max: 1883.47  Test_Score: 836.89  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1660.41  PG Loss: -211.3322
+
+Sync from RL --> Nevo
+#Games: 1122 #Frames: 794412  Train_Max: 1205.89  Test_Score: 1248.70  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 883.17  PG Loss: -211.9149
+
+Sync from RL --> Nevo
+#Games: 1133 #Frames: 799408  Train_Max: 1069.61  Test_Score: 889.55  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2419.01  PG Loss: -212.3305
+
+Sync from RL --> Nevo
+#Games: 1144 #Frames: 807088  Train_Max: 2359.31  Test_Score: 1680.40  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 749.28  PG Loss: -213.1229
+
+Sync from RL --> Nevo
+#Games: 1155 #Frames: 813822  Train_Max: 778.41  Test_Score: 897.52  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2202.68  PG Loss: -213.7605
+
+Sync from RL --> Nevo
+#Games: 1166 #Frames: 821592  Train_Max: 2966.75  Test_Score: 1937.40  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1049.03  PG Loss: -214.4482
+
+Sync from RL --> Nevo
+#Games: 1177 #Frames: 828812  Train_Max: 1020.80  Test_Score: 1250.46  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1500.96  PG Loss: -214.8945
+
+Sync from RL --> Nevo
+#Games: 1188 #Frames: 835480  Train_Max: 2167.67  Test_Score: 1024.38  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1838.29  PG Loss: -215.7845
+
+Sync from RL --> Nevo
+#Games: 1199 #Frames: 843876  Train_Max: 2993.22  Test_Score: 593.03  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1184.26  PG Loss: -216.7194
+
+Sync from RL --> Nevo
+#Games: 1210 #Frames: 851955  Train_Max: 2877.89  Test_Score: 1014.06  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2493.26  PG Loss: -217.7080
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1221 #Frames: 857314  Train_Max: 3167.66  Test_Score: 2819.90  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2067.18  PG Loss: -218.3076
+
+Sync from RL --> Nevo
+#Games: 1232 #Frames: 865573  Train_Max: 3267.97  Test_Score: 1999.80  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2178.89  PG Loss: -219.4597
+
+Sync from RL --> Nevo
+#Games: 1243 #Frames: 874713  Train_Max: 3038.06  Test_Score: 1770.67  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1046.43  PG Loss: -220.6907
+
+Sync from RL --> Nevo
+#Games: 1254 #Frames: 882324  Train_Max: 935.51  Test_Score: 1190.87  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1298.32  PG Loss: -221.5801
+
+Sync from RL --> Nevo
+#Games: 1265 #Frames: 888693  Train_Max: 1212.04  Test_Score: 1045.32  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 755.13  PG Loss: -222.6165
+
+Sync from RL --> Nevo
+#Games: 1276 #Frames: 895157  Train_Max: 219.47  Test_Score: 946.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1315.92  PG Loss: -223.5843
+
+Sync from RL --> Nevo
+#Games: 1287 #Frames: 901526  Train_Max: 1523.44  Test_Score: 1344.36  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 718.46  PG Loss: -224.7344
+
+Sync from RL --> Nevo
+#Games: 1298 #Frames: 910933  Train_Max: 3044.19  Test_Score: 1621.55  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 749.47  PG Loss: -226.5501
+
+Sync from RL --> Nevo
+#Games: 1309 #Frames: 916626  Train_Max: 3207.71  Test_Score: 1387.17  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1657.79  PG Loss: -227.8649
+
+Sync from RL --> Nevo
+#Games: 1320 #Frames: 925545  Train_Max: 2898.93  Test_Score: 1705.35  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2177.47  PG Loss: -229.0822
+
+Sync from RL --> Nevo
+#Games: 1331 #Frames: 932861  Train_Max: 1757.40  Test_Score: 2264.84  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2312.05  PG Loss: -230.1435
+
+Sync from RL --> Nevo
+#Games: 1342 #Frames: 941791  Train_Max: 1829.13  Test_Score: 2674.22  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1187.83  PG Loss: -231.2689
+
+Sync from RL --> Nevo
+#Games: 1353 #Frames: 950254  Train_Max: 3177.29  Test_Score: 1752.25  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1247.29  PG Loss: -232.9169
+
+Sync from RL --> Nevo
+#Games: 1364 #Frames: 957048  Train_Max: 2919.38  Test_Score: 1534.14  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 459.19  PG Loss: -234.1021
+
+Sync from RL --> Nevo
+#Games: 1375 #Frames: 965982  Train_Max: 3031.48  Test_Score: 2538.41  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1581.03  PG Loss: -235.6143
+
+Sync from RL --> Nevo
+#Games: 1386 #Frames: 972327  Train_Max: 2385.78  Test_Score: 743.39  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 379.96  PG Loss: -236.3828
+
+Sync from RL --> Nevo
+#Games: 1397 #Frames: 976407  Train_Max: 2868.72  Test_Score: 2587.33  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1279.17  PG Loss: -237.3506
+
+Sync from RL --> Nevo
+#Games: 1408 #Frames: 983168  Train_Max: 2956.96  Test_Score: 2051.99  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1173.20  PG Loss: -237.9810
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1419 #Frames: 993273  Train_Max: 2882.21  Test_Score: 2221.02  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 755.58  PG Loss: -239.8035
+
+Sync from RL --> Nevo
+#Games: 1430 #Frames: 1000903  Train_Max: 2904.39  Test_Score: 1739.69  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 610.50  PG Loss: -241.2197
+
+Sync from RL --> Nevo
+#Games: 1441 #Frames: 1008327  Train_Max: 2952.47  Test_Score: 2092.56  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 435.61  PG Loss: -242.4613
+
+Sync from RL --> Nevo
+#Games: 1452 #Frames: 1015628  Train_Max: 2902.62  Test_Score: 2491.82  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1437.11  PG Loss: -243.9212
+
+Sync from RL --> Nevo
+#Games: 1463 #Frames: 1024496  Train_Max: 3308.16  Test_Score: 1219.47  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1176.57  PG Loss: -245.6695
+
+Sync from RL --> Nevo
+#Games: 1474 #Frames: 1029609  Train_Max: 392.35  Test_Score: 223.11  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 819.16  PG Loss: -246.6029
+
+Sync from RL --> Nevo
+#Games: 1485 #Frames: 1035453  Train_Max: 1140.15  Test_Score: 1641.22  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 908.31  PG Loss: -247.3666
+
+Sync from RL --> Nevo
+#Games: 1496 #Frames: 1041002  Train_Max: 1874.02  Test_Score: 1265.24  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1059.64  PG Loss: -248.2712
+
+Sync from RL --> Nevo
+#Games: 1507 #Frames: 1048505  Train_Max: 2711.71  Test_Score: 1477.36  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1344.19  PG Loss: -249.7303
+
+Sync from RL --> Nevo
+#Games: 1518 #Frames: 1054552  Train_Max: 2915.09  Test_Score: 1754.87  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1672.35  PG Loss: -251.0598
+
+Sync from RL --> Nevo
+#Games: 1529 #Frames: 1061510  Train_Max: 1565.25  Test_Score: 1238.47  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1382.26  PG Loss: -251.4172
+
+Sync from RL --> Nevo
+#Games: 1540 #Frames: 1069315  Train_Max: 2741.74  Test_Score: 1770.19  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1993.72  PG Loss: -252.1808
+
+Sync from RL --> Nevo
+#Games: 1551 #Frames: 1077098  Train_Max: 3089.71  Test_Score: 950.02  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2186.69  PG Loss: -253.0215
+
+Sync from RL --> Nevo
+#Games: 1562 #Frames: 1086983  Train_Max: 3400.46  Test_Score: 1628.84  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 824.73  PG Loss: -253.7557
+
+Sync from RL --> Nevo
+#Games: 1573 #Frames: 1093609  Train_Max: 2164.10  Test_Score: 842.74  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1939.41  PG Loss: -254.4098
+
+Sync from RL --> Nevo
+#Games: 1584 #Frames: 1100425  Train_Max: 3195.21  Test_Score: 2311.26  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1866.67  PG Loss: -254.7149
+
+Sync from RL --> Nevo
+#Games: 1595 #Frames: 1109178  Train_Max: 1383.43  Test_Score: 1017.40  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1290.45  PG Loss: -255.4121
+
+Sync from RL --> Nevo
+#Games: 1606 #Frames: 1117722  Train_Max: 1310.48  Test_Score: 1003.84  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1876.44  PG Loss: -255.6883
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1617 #Frames: 1124707  Train_Max: 1906.71  Test_Score: 700.04  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2564.70  PG Loss: -256.5559
+
+Sync from RL --> Nevo
+#Games: 1628 #Frames: 1133469  Train_Max: 1675.96  Test_Score: 2305.55  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1957.93  PG Loss: -257.7921
+
+Sync from RL --> Nevo
+#Games: 1639 #Frames: 1142366  Train_Max: 3179.74  Test_Score: 1022.78  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1003.79  PG Loss: -259.3890
+
+Sync from RL --> Nevo
+#Games: 1650 #Frames: 1148737  Train_Max: 3467.83  Test_Score: 2160.90  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1126.46  PG Loss: -260.1365
+
+Sync from RL --> Nevo
+#Games: 1661 #Frames: 1155510  Train_Max: 1719.87  Test_Score: 1671.64  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1677.10  PG Loss: -261.1376
+
+Sync from RL --> Nevo
+#Games: 1672 #Frames: 1165118  Train_Max: 1809.63  Test_Score: 2466.71  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2946.29  PG Loss: -261.6057
+
+Sync from RL --> Nevo
+#Games: 1683 #Frames: 1171860  Train_Max: 3490.19  Test_Score: 2576.30  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1852.93  PG Loss: -262.7339
+
+Sync from RL --> Nevo
+#Games: 1694 #Frames: 1180535  Train_Max: 3467.52  Test_Score: 722.71  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1664.59  PG Loss: -263.0583
+
+Sync from RL --> Nevo
+#Games: 1705 #Frames: 1188759  Train_Max: 3288.65  Test_Score: 1726.36  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1037.34  PG Loss: -263.6578
+
+Sync from RL --> Nevo
+#Games: 1716 #Frames: 1195583  Train_Max: 1226.98  Test_Score: 1913.90  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2081.79  PG Loss: -264.5106
+
+Sync from RL --> Nevo
+#Games: 1727 #Frames: 1202160  Train_Max: 1786.43  Test_Score: 2077.71  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2372.85  PG Loss: -265.8063
+
+Sync from RL --> Nevo
+#Games: 1738 #Frames: 1210871  Train_Max: 3329.07  Test_Score: 1246.02  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1847.42  PG Loss: -266.7186
+
+Sync from RL --> Nevo
+#Games: 1749 #Frames: 1217246  Train_Max: 3396.11  Test_Score: 1540.94  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1402.60  PG Loss: -268.0782
+
+Sync from RL --> Nevo
+#Games: 1760 #Frames: 1223891  Train_Max: 2138.37  Test_Score: 1718.78  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 851.97  PG Loss: -268.5770
+
+Sync from RL --> Nevo
+#Games: 1771 #Frames: 1232302  Train_Max: 3579.82  Test_Score: 1048.37  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1723.52  PG Loss: -269.4400
+
+Sync from RL --> Nevo
+#Games: 1782 #Frames: 1239553  Train_Max: 3321.81  Test_Score: 1147.85  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2648.52  PG Loss: -270.3338
+
+Sync from RL --> Nevo
+#Games: 1793 #Frames: 1247305  Train_Max: 3272.37  Test_Score: 2114.97  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1832.18  PG Loss: -270.8212
+
+Sync from RL --> Nevo
+#Games: 1804 #Frames: 1255159  Train_Max: 1764.74  Test_Score: 2011.02  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3268.10  PG Loss: -271.6183
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1815 #Frames: 1263493  Train_Max: 3375.73  Test_Score: 2759.87  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1890.89  PG Loss: -272.3456
+
+Sync from RL --> Nevo
+#Games: 1826 #Frames: 1270543  Train_Max: 3102.93  Test_Score: 2490.98  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1193.90  PG Loss: -273.0086
+
+Sync from RL --> Nevo
+#Games: 1837 #Frames: 1277230  Train_Max: 3211.30  Test_Score: 2836.42  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1727.87  PG Loss: -273.9009
+
+Sync from RL --> Nevo
+#Games: 1848 #Frames: 1282797  Train_Max: 2692.24  Test_Score: 2659.77  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1236.24  PG Loss: -274.0308
+
+Sync from RL --> Nevo
+#Games: 1859 #Frames: 1291900  Train_Max: 3352.00  Test_Score: 2929.61  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1774.17  PG Loss: -275.3449
+
+Sync from RL --> Nevo
+#Games: 1870 #Frames: 1299965  Train_Max: 3284.61  Test_Score: 1285.96  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1672.57  PG Loss: -276.0249
+
+Sync from RL --> Nevo
+#Games: 1881 #Frames: 1308675  Train_Max: 2711.29  Test_Score: 2173.07  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2412.57  PG Loss: -276.9342
+
+Sync from RL --> Nevo
+#Games: 1892 #Frames: 1318165  Train_Max: 2844.60  Test_Score: 2849.66  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 761.27  PG Loss: -277.7270
+

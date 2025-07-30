@@ -12,7 +12,7 @@ set -e
 
 echo "========================================"
 echo "PDERL 并行训练脚本 (Ubuntu修复版)"
-echo "直接启动5个并行实例"
+echo "直接启动5个并行实例 + 消融实验支持"
 echo "========================================"
 echo
 
@@ -65,8 +65,103 @@ echo
 read -p "是否使用TensorBoard记录训练过程? (y/n, 默认n): " use_tensorboard
 use_tensorboard=${use_tensorboard:-n}
 
+# 新增：消融实验选择
+echo
+echo "🧪 请选择实验类型:"
+echo "  1. 标准PDERL训练 (默认配置)"
+echo "  2. 消融实验 - 禁用近端变异 (Proximal Mutation)"
+echo "  3. 消融实验 - 禁用蒸馏交叉 (Distillation Crossover)"
+echo "  4. 消融实验 - 禁用新颖性搜索 (Novelty Search)"
+echo "  5. 消融实验 - 禁用近端变异+蒸馏交叉"
+echo "  6. 消融实验 - 禁用所有高级特性 (仅基础DDPG+EA)"
+echo "  7. 自定义参数配置"
+echo
+read -p "请输入实验类型编号 (1-7, 默认1): " exp_choice
+exp_choice=${exp_choice:-1}
+
+# 根据选择设置消融实验参数
+ablation_params=""
+exp_suffix=""
+
+case $exp_choice in
+    1) 
+        echo "✅ 选择: 标准PDERL训练"
+        ablation_params="-proximal_mut -distil"
+        exp_suffix="_standard"
+        ;;
+    2) 
+        echo "✅ 选择: 消融实验 - 禁用近端变异"
+        ablation_params="-distil"
+        exp_suffix="_no_proximal_mut"
+        ;;
+    3) 
+        echo "✅ 选择: 消融实验 - 禁用蒸馏交叉"
+        ablation_params="-proximal_mut"
+        exp_suffix="_no_distil"
+        ;;
+    4) 
+        echo "✅ 选择: 消融实验 - 禁用新颖性搜索"
+        ablation_params="-proximal_mut -distil"
+        exp_suffix="_no_novelty"
+        ;;
+    5) 
+        echo "✅ 选择: 消融实验 - 禁用近端变异+蒸馏交叉"
+        ablation_params=""
+        exp_suffix="_no_proximal_distil"
+        ;;
+    6) 
+        echo "✅ 选择: 消融实验 - 禁用所有高级特性"
+        ablation_params=""
+        exp_suffix="_baseline"
+        ;;
+    7) 
+        echo "✅ 选择: 自定义参数配置"
+        echo
+        echo "🔧 可用的高级特性参数:"
+        echo "  - 近端变异 (Proximal Mutation): 提高变异安全性"
+        echo "  - 蒸馏交叉 (Distillation Crossover): 智能交叉策略"
+        echo "  - 新颖性搜索 (Novelty Search): 探索多样性"
+        echo
+        read -p "是否启用近端变异? (y/n, 默认y): " enable_proximal
+        read -p "是否启用蒸馏交叉? (y/n, 默认y): " enable_distil
+        read -p "是否启用新颖性搜索? (y/n, 默认n): " enable_novelty
+        read -p "变异幅度 (0.01-0.2, 默认0.05): " mut_mag
+        
+        enable_proximal=${enable_proximal:-y}
+        enable_distil=${enable_distil:-y}
+        enable_novelty=${enable_novelty:-n}
+        mut_mag=${mut_mag:-0.05}
+        
+        ablation_params=""
+        exp_suffix="_custom"
+        
+        if [[ "$enable_proximal" =~ ^[Yy]$ ]]; then
+            ablation_params="$ablation_params -proximal_mut"
+            exp_suffix="${exp_suffix}_prox"
+        fi
+        
+        if [[ "$enable_distil" =~ ^[Yy]$ ]]; then
+            ablation_params="$ablation_params -distil"
+            exp_suffix="${exp_suffix}_dist"
+        fi
+        
+        if [[ "$enable_novelty" =~ ^[Yy]$ ]]; then
+            ablation_params="$ablation_params -novelty"
+            exp_suffix="${exp_suffix}_nov"
+        fi
+        
+        ablation_params="$ablation_params -mut_mag $mut_mag"
+        exp_suffix="${exp_suffix}_mag${mut_mag}"
+        ;;
+    *) 
+        echo "❌ 无效的实验类型选择，使用默认配置"
+        ablation_params="-proximal_mut -distil"
+        exp_suffix="_standard"
+        ;;
+esac
+
 # 创建实验目录
-exp_dir="parallel_experiments/${env_name}_$(date +%Y%m%d_%H%M%S)"
+exp_dir="parallel_experiments/${env_name}${exp_suffix}_$(date +%Y%m%d_%H%M%S)"
 mkdir -p "$exp_dir"
 
 echo "📁 实验目录: $exp_dir"
@@ -95,6 +190,11 @@ for seed in 1 3 7 10 100; do
     
     # 构建命令
     cmd="python run_pderl.py -env $env_name -seed $seed -logdir $instance_dir"
+    
+    # 添加消融实验参数
+    if [ -n "$ablation_params" ]; then
+        cmd="$cmd $ablation_params"
+    fi
     
     # 添加TensorBoard参数
     if [[ "$use_tensorboard" =~ ^[Yy]$ ]]; then
@@ -182,4 +282,6 @@ echo
 echo "🏁 训练将在后台继续运行..."
 echo "💡 提示: 如果日志文件为空，可能需要检查Python环境或依赖包"
 echo "🔧 调试命令: python run_pderl.py -env $env_name -seed 1 -logdir test_debug"
+echo "📊 实验配置: $ablation_params"
+echo "📁 实验类型: $exp_suffix"
 echo "========================================"

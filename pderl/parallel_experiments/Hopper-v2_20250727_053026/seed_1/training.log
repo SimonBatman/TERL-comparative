@@ -1,0 +1,747 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+[TensorBoard] Logging enabled: parallel_experiments/Hopper-v2_20250727_053026/seed_1/tensorboard_logs
+[INFO] View training progress: tensorboard --logdir parallel_experiments/Hopper-v2_20250727_053026/seed_1/tensorboard_logs
+[TensorBoard] Using TensorBoard for training logging
+{   'action_dim': 3,
+    'alpha': 0.7,
+    'batch_size': 128,
+    'beta_zero': 0.5,
+    'buffer_size': 1000000,
+    'crossover_prob': 0.0,
+    'device': device(type='cuda'),
+    'distil': False,
+    'distil_type': 'fitness',
+    'elite_fraction': 0.2,
+    'env_name': 'Hopper-v2',
+    'frac_frames_train': 1.0,
+    'gamma': 0.99,
+    'individual_bs': 8000,
+    'learn_start': 15627.0,
+    'log_freq': 10,
+    'log_weights': False,
+    'ls': 128,
+    'mutation_batch_size': 256,
+    'mutation_mag': 0.05,
+    'mutation_noise': False,
+    'mutation_prob': 0.9,
+    'next_save': 200,
+    'ns': False,
+    'ns_epochs': 10,
+    'num_evals': 3,
+    'num_frames': 4000000,
+    'opstat': False,
+    'opstat_freq': 1,
+    'per': False,
+    'pop_size': 10,
+    'proximal_mut': False,
+    'render': False,
+    'replace_old': True,
+    'rl_to_ea_synch_period': 1,
+    'save_foldername': 'parallel_experiments/Hopper-v2_20250727_053026/seed_1',
+    'save_periodic': False,
+    'seed': 1,
+    'state_dim': 11,
+    'tau': 0.001,
+    'tensorboard_dir': None,
+    'test_operators': False,
+    'total_steps': 4000000,
+    'use_done_mask': True,
+    'use_ln': True,
+    'use_tensorboard': True,
+    'verbose_crossover': False,
+    'verbose_mut': False}
+Running Hopper-v2  State_dim: 11  Action_dim: 3
+Sync from RL --> Nevo
+#Games: 31 #Frames: 862  Train_Max: 56.49  Test_Score: 56.41  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 25.78  PG Loss: -1.2762
+
+Sync from RL --> Nevo
+#Games: 62 #Frames: 1828  Train_Max: 58.83  Test_Score: 58.76  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 122.46  PG Loss: -2.4982
+
+Sync from RL --> Nevo
+#Games: 93 #Frames: 2783  Train_Max: 119.41  Test_Score: 121.62  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 155.57  PG Loss: -3.8426
+
+Sync from RL --> Nevo
+#Games: 124 #Frames: 4026  Train_Max: 157.41  Test_Score: 156.10  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 178.86  PG Loss: -5.5986
+
+Sync from RL --> Nevo
+#Games: 155 #Frames: 5888  Train_Max: 179.98  Test_Score: 177.63  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 79.43  PG Loss: -8.1626
+
+Sync from RL --> Nevo
+#Games: 186 #Frames: 7837  Train_Max: 179.07  Test_Score: 179.51  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 139.12  PG Loss: -11.2840
+
+Sync from RL --> Nevo
+#Games: 217 #Frames: 10405  Train_Max: 179.62  Test_Score: 180.02  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 40.30  PG Loss: -15.1132
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 248 #Frames: 12361  Train_Max: 198.58  Test_Score: 197.21  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 112.25  PG Loss: -18.9245
+
+Sync from RL --> Nevo
+#Games: 279 #Frames: 14755  Train_Max: 197.95  Test_Score: 198.26  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 106.85  PG Loss: -22.7787
+
+Sync from RL --> Nevo
+#Games: 310 #Frames: 17442  Train_Max: 202.25  Test_Score: 202.36  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 76.36  PG Loss: -27.3882
+
+Sync from RL --> Nevo
+#Games: 341 #Frames: 19433  Train_Max: 209.14  Test_Score: 208.38  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 134.12  PG Loss: -31.3419
+
+Sync from RL --> Nevo
+#Games: 372 #Frames: 22282  Train_Max: 210.33  Test_Score: 209.17  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 148.02  PG Loss: -35.1225
+
+Sync from RL --> Nevo
+#Games: 403 #Frames: 24785  Train_Max: 211.76  Test_Score: 210.81  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 100.75  PG Loss: -39.1443
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 434 #Frames: 27718  Train_Max: 213.11  Test_Score: 213.31  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 177.68  PG Loss: -42.9634
+
+Sync from RL --> Nevo
+#Games: 465 #Frames: 30682  Train_Max: 213.56  Test_Score: 210.65  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 128.21  PG Loss: -47.0358
+
+Sync from RL --> Nevo
+#Games: 496 #Frames: 32848  Train_Max: 211.11  Test_Score: 211.73  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 91.51  PG Loss: -50.2547
+
+Sync from RL --> Nevo
+#Games: 527 #Frames: 35345  Train_Max: 209.42  Test_Score: 211.16  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 163.90  PG Loss: -53.4012
+
+Sync from RL --> Nevo
+#Games: 558 #Frames: 38001  Train_Max: 212.37  Test_Score: 212.52  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 184.21  PG Loss: -57.0814
+
+Sync from RL --> Nevo
+#Games: 589 #Frames: 40978  Train_Max: 213.76  Test_Score: 210.48  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 180.16  PG Loss: -61.2700
+
+Sync from RL --> Nevo
+#Games: 620 #Frames: 43754  Train_Max: 213.47  Test_Score: 214.21  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 145.83  PG Loss: -65.3431
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 651 #Frames: 46443  Train_Max: 215.20  Test_Score: 212.08  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 143.53  PG Loss: -68.9401
+
+Sync from RL --> Nevo
+#Games: 682 #Frames: 48897  Train_Max: 212.99  Test_Score: 209.99  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 148.39  PG Loss: -71.9664
+
+Sync from RL --> Nevo
+#Games: 713 #Frames: 51326  Train_Max: 237.70  Test_Score: 232.78  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 178.95  PG Loss: -74.6489
+
+Sync from RL --> Nevo
+#Games: 744 #Frames: 53975  Train_Max: 230.15  Test_Score: 226.48  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 176.67  PG Loss: -77.3317
+
+Sync from RL --> Nevo
+#Games: 775 #Frames: 56689  Train_Max: 224.20  Test_Score: 227.77  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 185.45  PG Loss: -79.9934
+
+Sync from RL --> Nevo
+#Games: 806 #Frames: 59417  Train_Max: 237.19  Test_Score: 229.17  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 165.60  PG Loss: -82.6332
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 837 #Frames: 62032  Train_Max: 238.02  Test_Score: 230.48  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 147.46  PG Loss: -85.3288
+
+Sync from RL --> Nevo
+#Games: 868 #Frames: 66022  Train_Max: 446.25  Test_Score: 455.63  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 126.29  PG Loss: -88.9554
+
+Sync from RL --> Nevo
+#Games: 899 #Frames: 69821  Train_Max: 462.72  Test_Score: 463.99  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 178.13  PG Loss: -92.9105
+
+Sync from RL --> Nevo
+#Games: 930 #Frames: 73541  Train_Max: 452.32  Test_Score: 492.82  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 180.92  PG Loss: -96.9317
+
+Sync from RL --> Nevo
+#Games: 961 #Frames: 77135  Train_Max: 486.71  Test_Score: 483.62  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 155.75  PG Loss: -100.0026
+
+Sync from RL --> Nevo
+#Games: 992 #Frames: 81184  Train_Max: 517.76  Test_Score: 453.23  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 177.41  PG Loss: -103.1504
+
+Sync from RL --> Nevo
+#Games: 1023 #Frames: 85177  Train_Max: 462.29  Test_Score: 517.99  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 177.57  PG Loss: -106.8637
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1054 #Frames: 89754  Train_Max: 499.17  Test_Score: 496.03  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 162.75  PG Loss: -110.4371
+
+Sync from RL --> Nevo
+#Games: 1085 #Frames: 95996  Train_Max: 451.79  Test_Score: 469.70  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 193.70  PG Loss: -114.8617
+
+Sync from RL --> Nevo
+#Games: 1116 #Frames: 103960  Train_Max: 515.32  Test_Score: 533.03  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 170.80  PG Loss: -120.8983
+
+Sync from RL --> Nevo
+#Games: 1147 #Frames: 109181  Train_Max: 490.73  Test_Score: 482.11  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 179.80  PG Loss: -126.3012
+
+Sync from RL --> Nevo
+#Games: 1178 #Frames: 119390  Train_Max: 991.72  Test_Score: 990.69  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 236.76  PG Loss: -133.2908
+
+Sync from RL --> Nevo
+#Games: 1209 #Frames: 129421  Train_Max: 994.32  Test_Score: 993.06  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 272.60  PG Loss: -141.6074
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1240 #Frames: 140359  Train_Max: 994.29  Test_Score: 994.38  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 299.33  PG Loss: -149.1906
+
+Sync from RL --> Nevo
+#Games: 1271 #Frames: 155210  Train_Max: 1015.73  Test_Score: 1016.31  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 748.73  PG Loss: -156.0781
+
+Sync from RL --> Nevo
+#Games: 1302 #Frames: 173904  Train_Max: 1017.37  Test_Score: 1014.98  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 485.19  PG Loss: -163.4661
+
+Sync from RL --> Nevo
+#Games: 1333 #Frames: 189312  Train_Max: 1015.20  Test_Score: 1015.67  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 487.24  PG Loss: -169.5154
+
+Sync from RL --> Nevo
+#Games: 1364 #Frames: 204158  Train_Max: 1018.99  Test_Score: 1016.24  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 948.91  PG Loss: -176.5987
+
+Sync from RL --> Nevo
+#Games: 1395 #Frames: 216428  Train_Max: 1060.87  Test_Score: 1063.61  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1019.98  PG Loss: -183.4937
+
+Sync from RL --> Nevo
+#Games: 1426 #Frames: 229145  Train_Max: 1062.47  Test_Score: 1022.94  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1024.22  PG Loss: -189.1627
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1457 #Frames: 240306  Train_Max: 1023.49  Test_Score: 1023.98  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 266.53  PG Loss: -191.8976
+
+Sync from RL --> Nevo
+#Games: 1488 #Frames: 254719  Train_Max: 1340.85  Test_Score: 1341.44  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 191.65  PG Loss: -195.4981
+
+Sync from RL --> Nevo
+#Games: 1519 #Frames: 271665  Train_Max: 1338.74  Test_Score: 1341.35  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 191.77  PG Loss: -206.8111
+
+Sync from RL --> Nevo
+#Games: 1550 #Frames: 283502  Train_Max: 1341.26  Test_Score: 1342.00  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 258.84  PG Loss: -217.9111
+
+Sync from RL --> Nevo
+#Games: 1581 #Frames: 294425  Train_Max: 1341.23  Test_Score: 1341.25  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 246.33  PG Loss: -228.1691
+
+Sync from RL --> Nevo
+#Games: 1612 #Frames: 308843  Train_Max: 1341.75  Test_Score: 1339.45  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 250.41  PG Loss: -240.9946
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1643 #Frames: 324374  Train_Max: 1341.84  Test_Score: 1339.69  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 94.02  PG Loss: -257.2323
+
+Sync from RL --> Nevo
+#Games: 1674 #Frames: 337912  Train_Max: 1444.81  Test_Score: 1441.07  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 246.71  PG Loss: -269.1819
+
+Sync from RL --> Nevo
+#Games: 1705 #Frames: 352418  Train_Max: 1475.76  Test_Score: 1485.87  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 262.14  PG Loss: -278.4048
+
+Sync from RL --> Nevo
+#Games: 1736 #Frames: 366281  Train_Max: 1470.23  Test_Score: 1363.77  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 265.50  PG Loss: -286.1746
+
+Sync from RL --> Nevo
+#Games: 1767 #Frames: 378030  Train_Max: 1489.66  Test_Score: 1469.64  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 245.26  PG Loss: -288.3730
+
+Sync from RL --> Nevo
+#Games: 1798 #Frames: 395372  Train_Max: 1358.59  Test_Score: 1356.71  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 414.76  PG Loss: -284.7596
+
+Sync from RL --> Nevo
+#Games: 1829 #Frames: 415069  Train_Max: 1475.88  Test_Score: 1465.77  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 372.31  PG Loss: -283.1962
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 1860 #Frames: 429350  Train_Max: 1328.19  Test_Score: 1299.56  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 294.69  PG Loss: -283.3339
+
+Sync from RL --> Nevo
+#Games: 1891 #Frames: 443853  Train_Max: 1234.12  Test_Score: 1464.95  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 512.60  PG Loss: -277.1284
+
+Sync from RL --> Nevo
+#Games: 1922 #Frames: 456190  Train_Max: 1466.59  Test_Score: 1432.04  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 506.18  PG Loss: -270.4155
+
+Sync from RL --> Nevo
+#Games: 1953 #Frames: 469990  Train_Max: 1470.62  Test_Score: 1392.93  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 384.86  PG Loss: -265.3978
+
+Sync from RL --> Nevo
+#Games: 1984 #Frames: 480535  Train_Max: 1430.12  Test_Score: 1479.87  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 511.11  PG Loss: -261.2363
+
+Sync from RL --> Nevo
+#Games: 2015 #Frames: 494704  Train_Max: 1484.63  Test_Score: 1478.26  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 295.19  PG Loss: -258.6765
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 2046 #Frames: 507340  Train_Max: 1293.82  Test_Score: 1405.49  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 348.43  PG Loss: -256.0855
+
+Sync from RL --> Nevo
+#Games: 2077 #Frames: 522152  Train_Max: 1498.09  Test_Score: 947.77  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 392.33  PG Loss: -254.1215
+
+Sync from RL --> Nevo
+#Games: 2108 #Frames: 537022  Train_Max: 1613.62  Test_Score: 1581.10  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 535.89  PG Loss: -249.6049
+
+Sync from RL --> Nevo
+#Games: 2139 #Frames: 560283  Train_Max: 1602.68  Test_Score: 1624.12  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 218.79  PG Loss: -245.4888
+
+Sync from RL --> Nevo
+#Games: 2170 #Frames: 574578  Train_Max: 1657.07  Test_Score: 1557.73  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 349.13  PG Loss: -244.4867
+
+Sync from RL --> Nevo
+#Games: 2201 #Frames: 595411  Train_Max: 1705.14  Test_Score: 1610.41  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 223.52  PG Loss: -242.5026
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 2232 #Frames: 611861  Train_Max: 1628.01  Test_Score: 1510.64  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 498.83  PG Loss: -243.8330
+
+Sync from RL --> Nevo
+#Games: 2263 #Frames: 627960  Train_Max: 1668.05  Test_Score: 1566.70  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 494.21  PG Loss: -246.5222
+
+Sync from RL --> Nevo
+#Games: 2294 #Frames: 641224  Train_Max: 1668.53  Test_Score: 1573.97  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 494.57  PG Loss: -243.6251
+
+Sync from RL --> Nevo
+#Games: 2325 #Frames: 649787  Train_Max: 1677.73  Test_Score: 1565.11  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 531.48  PG Loss: -242.1903
+
+Sync from RL --> Nevo
+#Games: 2356 #Frames: 665047  Train_Max: 1666.50  Test_Score: 1651.85  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 257.88  PG Loss: -241.8978
+
+Sync from RL --> Nevo
+#Games: 2387 #Frames: 674129  Train_Max: 1679.53  Test_Score: 1525.21  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 392.78  PG Loss: -242.0073
+
+Sync from RL --> Nevo
+#Games: 2418 #Frames: 687177  Train_Max: 1568.70  Test_Score: 1575.61  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 360.46  PG Loss: -241.7977
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 2449 #Frames: 705670  Train_Max: 1615.89  Test_Score: 1571.74  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 102.47  PG Loss: -244.2025
+
+Sync from RL --> Nevo
+#Games: 2480 #Frames: 716285  Train_Max: 1629.35  Test_Score: 1615.20  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 405.85  PG Loss: -246.2052
+
+Sync from RL --> Nevo
+#Games: 2511 #Frames: 725096  Train_Max: 1717.43  Test_Score: 1676.84  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 500.47  PG Loss: -248.2152
+
+Sync from RL --> Nevo
+#Games: 2542 #Frames: 733688  Train_Max: 1524.72  Test_Score: 1491.53  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 444.03  PG Loss: -250.7899
+
+Sync from RL --> Nevo
+#Games: 2573 #Frames: 742464  Train_Max: 1592.25  Test_Score: 1562.69  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 326.53  PG Loss: -252.7707
+
+Sync from RL --> Nevo
+#Games: 2604 #Frames: 755896  Train_Max: 1621.12  Test_Score: 1566.44  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 458.41  PG Loss: -252.9473
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 2635 #Frames: 766809  Train_Max: 1665.06  Test_Score: 1608.60  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 389.49  PG Loss: -253.4887
+
+Sync from RL --> Nevo
+#Games: 2666 #Frames: 780545  Train_Max: 1565.45  Test_Score: 1607.47  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 453.70  PG Loss: -255.7532
+
+Sync from RL --> Nevo
+#Games: 2697 #Frames: 796289  Train_Max: 1652.68  Test_Score: 1636.00  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 397.15  PG Loss: -261.9455
+
+Sync from RL --> Nevo
+#Games: 2728 #Frames: 811457  Train_Max: 1592.06  Test_Score: 1660.14  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 397.20  PG Loss: -271.5879
+
+Sync from RL --> Nevo
+#Games: 2759 #Frames: 830322  Train_Max: 1644.68  Test_Score: 1583.17  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 550.92  PG Loss: -287.0753
+
+Sync from RL --> Nevo
+#Games: 2790 #Frames: 844104  Train_Max: 1635.35  Test_Score: 1565.24  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 371.85  PG Loss: -307.1232
+
+Sync from RL --> Nevo
+#Games: 2821 #Frames: 864736  Train_Max: 1654.65  Test_Score: 1648.92  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 567.94  PG Loss: -327.0340
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 2852 #Frames: 877994  Train_Max: 1615.27  Test_Score: 1540.37  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 841.91  PG Loss: -345.3221
+
+Sync from RL --> Nevo
+#Games: 2883 #Frames: 898550  Train_Max: 1600.17  Test_Score: 1512.87  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 546.90  PG Loss: -356.6853
+
+Sync from RL --> Nevo
+#Games: 2914 #Frames: 911669  Train_Max: 1625.06  Test_Score: 1614.55  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 656.19  PG Loss: -357.8489
+
+Sync from RL --> Nevo
+#Games: 2945 #Frames: 925598  Train_Max: 1666.26  Test_Score: 1591.74  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 830.32  PG Loss: -356.4133
+
+Sync from RL --> Nevo
+#Games: 2976 #Frames: 940798  Train_Max: 1631.68  Test_Score: 1676.24  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 673.68  PG Loss: -354.3345
+
+Sync from RL --> Nevo
+#Games: 3007 #Frames: 957750  Train_Max: 1635.29  Test_Score: 1649.69  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 664.20  PG Loss: -354.4981
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 3038 #Frames: 973172  Train_Max: 1651.30  Test_Score: 1617.27  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 783.97  PG Loss: -354.7204
+
+Sync from RL --> Nevo
+#Games: 3069 #Frames: 984391  Train_Max: 1661.33  Test_Score: 1527.99  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 502.82  PG Loss: -349.8296
+
+Sync from RL --> Nevo
+#Games: 3100 #Frames: 995707  Train_Max: 1634.88  Test_Score: 1580.52  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1268.18  PG Loss: -349.4361
+
+Sync from RL --> Nevo
+#Games: 3131 #Frames: 1005261  Train_Max: 1599.01  Test_Score: 1676.52  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 560.37  PG Loss: -352.4669
+
+Sync from RL --> Nevo
+#Games: 3162 #Frames: 1020418  Train_Max: 1651.12  Test_Score: 1681.36  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 649.79  PG Loss: -356.3596
+
+Sync from RL --> Nevo
+#Games: 3193 #Frames: 1037617  Train_Max: 1561.07  Test_Score: 1561.92  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 722.69  PG Loss: -354.3165
+
+Sync from RL --> Nevo
+#Games: 3224 #Frames: 1048239  Train_Max: 1613.67  Test_Score: 1618.28  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 476.47  PG Loss: -348.7895
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 3255 #Frames: 1066555  Train_Max: 1619.51  Test_Score: 1618.82  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 789.54  PG Loss: -345.4380
+
+Sync from RL --> Nevo
+#Games: 3286 #Frames: 1073860  Train_Max: 1108.67  Test_Score: 1619.09  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 575.68  PG Loss: -342.3622
+
+Sync from RL --> Nevo
+#Games: 3317 #Frames: 1091381  Train_Max: 1617.14  Test_Score: 1618.95  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 104.14  PG Loss: -335.3775
+
+Sync from RL --> Nevo
+#Games: 3348 #Frames: 1101641  Train_Max: 1676.01  Test_Score: 1670.15  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 493.39  PG Loss: -327.0678
+
+Sync from RL --> Nevo
+#Games: 3379 #Frames: 1110695  Train_Max: 1677.26  Test_Score: 1671.25  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 68.01  PG Loss: -322.4517
+
+Sync from RL --> Nevo
+#Games: 3410 #Frames: 1120767  Train_Max: 1768.52  Test_Score: 1761.28  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 309.57  PG Loss: -318.7291
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 3441 #Frames: 1132342  Train_Max: 1766.02  Test_Score: 1762.97  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 138.97  PG Loss: -315.1082
+
+Sync from RL --> Nevo
+#Games: 3472 #Frames: 1143645  Train_Max: 1762.33  Test_Score: 1763.74  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 406.37  PG Loss: -312.0134
+
+Sync from RL --> Nevo
+#Games: 3503 #Frames: 1151833  Train_Max: 1783.83  Test_Score: 1788.88  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 538.03  PG Loss: -310.5527
+
+Sync from RL --> Nevo
+#Games: 3534 #Frames: 1159795  Train_Max: 1786.39  Test_Score: 1791.98  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 117.26  PG Loss: -310.9518
+
+Sync from RL --> Nevo
+#Games: 3565 #Frames: 1173026  Train_Max: 1784.72  Test_Score: 1786.52  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 120.60  PG Loss: -313.4267
+
+Sync from RL --> Nevo
+#Games: 3596 #Frames: 1191729  Train_Max: 1788.35  Test_Score: 1785.87  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 115.58  PG Loss: -320.0870
+
+Sync from RL --> Nevo
+#Games: 3627 #Frames: 1208026  Train_Max: 1789.47  Test_Score: 1786.68  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 279.85  PG Loss: -325.4820
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 3658 #Frames: 1227102  Train_Max: 1789.94  Test_Score: 1446.79  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1515.16  PG Loss: -328.5227
+
+Sync from RL --> Nevo
+#Games: 3689 #Frames: 1247166  Train_Max: 1791.22  Test_Score: 1783.30  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 449.11  PG Loss: -327.0037
+
+Sync from RL --> Nevo
+#Games: 3720 #Frames: 1262280  Train_Max: 1788.96  Test_Score: 1788.54  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 982.51  PG Loss: -325.2678
+
+Sync from RL --> Nevo
+#Games: 3751 #Frames: 1278610  Train_Max: 1831.96  Test_Score: 1829.88  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1152.12  PG Loss: -323.2407
+
+Sync from RL --> Nevo
+#Games: 3782 #Frames: 1298707  Train_Max: 1834.17  Test_Score: 1831.14  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 931.86  PG Loss: -321.5227
+
+Sync from RL --> Nevo
+#Games: 3813 #Frames: 1315632  Train_Max: 1829.82  Test_Score: 1830.27  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 335.82  PG Loss: -320.1456
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 3844 #Frames: 1336362  Train_Max: 1834.78  Test_Score: 1830.12  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 856.83  PG Loss: -318.7777
+
+Sync from RL --> Nevo
+#Games: 3875 #Frames: 1353234  Train_Max: 1832.38  Test_Score: 1827.55  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 623.10  PG Loss: -319.2390
+
+Sync from RL --> Nevo
+#Games: 3906 #Frames: 1370606  Train_Max: 1832.50  Test_Score: 1830.12  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1123.60  PG Loss: -322.2835
+
+Sync from RL --> Nevo
+#Games: 3937 #Frames: 1383433  Train_Max: 1831.04  Test_Score: 1830.32  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1101.53  PG Loss: -325.9044
+
+Sync from RL --> Nevo
+#Games: 3968 #Frames: 1400606  Train_Max: 1835.58  Test_Score: 1829.67  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 687.75  PG Loss: -327.9945
+
+Sync from RL --> Nevo
+#Games: 3999 #Frames: 1417564  Train_Max: 1831.29  Test_Score: 1833.28  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 796.75  PG Loss: -329.5836
+
+Sync from RL --> Nevo
+#Games: 4030 #Frames: 1434204  Train_Max: 1830.94  Test_Score: 1833.08  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 393.41  PG Loss: -331.2878
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 4061 #Frames: 1448271  Train_Max: 1832.07  Test_Score: 1832.30  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 2587.28  PG Loss: -333.6060
+
+Sync from RL --> Nevo
+#Games: 4092 #Frames: 1469982  Train_Max: 2316.70  Test_Score: 2408.25  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 2961.82  PG Loss: -340.5177
+
+Sync from RL --> Nevo
+#Games: 4123 #Frames: 1486241  Train_Max: 2585.15  Test_Score: 2598.87  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 2212.54  PG Loss: -345.7778
+
+Sync from RL --> Nevo
+#Games: 4154 #Frames: 1499643  Train_Max: 2637.47  Test_Score: 2603.44  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 968.38  PG Loss: -345.6024
+
+Sync from RL --> Nevo
+#Games: 4185 #Frames: 1513376  Train_Max: 2630.29  Test_Score: 2620.22  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 870.21  PG Loss: -342.6597
+
+Sync from RL --> Nevo
+#Games: 4216 #Frames: 1518969  Train_Max: 2614.36  Test_Score: 2419.18  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 847.02  PG Loss: -339.3335
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 4247 #Frames: 1525246  Train_Max: 2605.48  Test_Score: 2579.16  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 826.30  PG Loss: -338.5269
+
+Sync from RL --> Nevo
+#Games: 4278 #Frames: 1531777  Train_Max: 2665.08  Test_Score: 2490.92  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 839.22  PG Loss: -337.3162
+
+Sync from RL --> Nevo
+#Games: 4309 #Frames: 1540306  Train_Max: 2643.60  Test_Score: 2630.39  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1481.22  PG Loss: -335.1879
+
+Sync from RL --> Nevo
+#Games: 4340 #Frames: 1551989  Train_Max: 2629.68  Test_Score: 2607.97  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 979.50  PG Loss: -333.3471
+
+Sync from RL --> Nevo
+#Games: 4371 #Frames: 1564094  Train_Max: 2792.63  Test_Score: 2793.42  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1967.87  PG Loss: -332.7473
+
+Sync from RL --> Nevo
+#Games: 4402 #Frames: 1576819  Train_Max: 2775.48  Test_Score: 2792.11  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1204.76  PG Loss: -334.7731
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 4433 #Frames: 1588132  Train_Max: 2239.23  Test_Score: 1153.02  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 2636.57  PG Loss: -334.7122
+
+Sync from RL --> Nevo
+#Games: 4464 #Frames: 1601757  Train_Max: 2632.06  Test_Score: 2629.44  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 2901.73  PG Loss: -333.1047
+
+Sync from RL --> Nevo
+#Games: 4495 #Frames: 1610521  Train_Max: 2907.34  Test_Score: 2907.53  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 2359.30  PG Loss: -331.7304
+
+Sync from RL --> Nevo
+#Games: 4526 #Frames: 1621036  Train_Max: 2933.65  Test_Score: 2930.96  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 2978.11  PG Loss: -330.9368
+
+Sync from RL --> Nevo
+#Games: 4557 #Frames: 1634661  Train_Max: 2997.35  Test_Score: 2976.52  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1268.30  PG Loss: -329.1226
+
+Sync from RL --> Nevo
+#Games: 4588 #Frames: 1648966  Train_Max: 3007.28  Test_Score: 2990.90  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 2651.04  PG Loss: -326.2838
+
+Sync from RL --> Nevo
+#Games: 4619 #Frames: 1658929  Train_Max: 3114.58  Test_Score: 3117.80  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 500.68  PG Loss: -324.5143
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 4650 #Frames: 1675021  Train_Max: 3111.58  Test_Score: 2651.33  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 971.79  PG Loss: -323.5345
+
+Sync from RL --> Nevo
+#Games: 4681 #Frames: 1686562  Train_Max: 3112.05  Test_Score: 2642.53  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 356.75  PG Loss: -322.2864
+
+Sync from RL --> Nevo
+#Games: 4712 #Frames: 1699347  Train_Max: 3117.69  Test_Score: 2646.25  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 868.53  PG Loss: -322.0234
+
+Sync from RL --> Nevo
+#Games: 4743 #Frames: 1712005  Train_Max: 3109.82  Test_Score: 3113.78  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 334.16  PG Loss: -322.2325
+
+Sync from RL --> Nevo
+#Games: 4774 #Frames: 1724329  Train_Max: 3113.66  Test_Score: 2600.96  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1607.45  PG Loss: -323.5379
+
+Sync from RL --> Nevo
+#Games: 4805 #Frames: 1733949  Train_Max: 3148.54  Test_Score: 2701.64  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1105.45  PG Loss: -324.5727
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 4836 #Frames: 1743302  Train_Max: 3118.96  Test_Score: 3124.83  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 666.78  PG Loss: -324.9881
+
+Sync from RL --> Nevo
+#Games: 4867 #Frames: 1752671  Train_Max: 3083.04  Test_Score: 3117.92  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 848.66  PG Loss: -325.3685
+
+Sync from RL --> Nevo
+#Games: 4898 #Frames: 1760072  Train_Max: 2733.01  Test_Score: 3122.83  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 755.95  PG Loss: -325.8122
+
+Sync from RL --> Nevo
+#Games: 4929 #Frames: 1769808  Train_Max: 3122.99  Test_Score: 3099.59  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 995.72  PG Loss: -326.9731
+
+Sync from RL --> Nevo
+#Games: 4960 #Frames: 1782144  Train_Max: 3121.16  Test_Score: 2892.95  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 657.01  PG Loss: -328.6147
+
+Sync from RL --> Nevo
+#Games: 4991 #Frames: 1793300  Train_Max: 3121.78  Test_Score: 2838.49  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 931.82  PG Loss: -330.4775
+
+Sync from RL --> Nevo
+#Games: 5022 #Frames: 1803499  Train_Max: 2714.05  Test_Score: 2907.47  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 841.68  PG Loss: -332.0993
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 5053 #Frames: 1819537  Train_Max: 3175.87  Test_Score: 2814.41  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1392.43  PG Loss: -333.2711
+
+Sync from RL --> Nevo
+#Games: 5084 #Frames: 1829566  Train_Max: 3176.44  Test_Score: 3084.98  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1902.26  PG Loss: -333.8587
+
+Sync from RL --> Nevo
+#Games: 5115 #Frames: 1839920  Train_Max: 2682.01  Test_Score: 3079.52  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1907.70  PG Loss: -334.1276
+
+Sync from RL --> Nevo
+#Games: 5146 #Frames: 1848459  Train_Max: 2793.34  Test_Score: 2765.27  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 3157.45  PG Loss: -335.3051
+
+Sync from RL --> Nevo
+#Games: 5177 #Frames: 1855306  Train_Max: 2995.20  Test_Score: 2862.98  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 230.80  PG Loss: -336.0642
+
+Sync from RL --> Nevo
+#Games: 5208 #Frames: 1862199  Train_Max: 2751.10  Test_Score: 2496.50  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 2061.18  PG Loss: -336.8726
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 5239 #Frames: 1869588  Train_Max: 3150.95  Test_Score: 2978.28  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1353.92  PG Loss: -338.0561
+
+Sync from RL --> Nevo
+#Games: 5270 #Frames: 1881682  Train_Max: 3227.36  Test_Score: 2707.55  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 609.04  PG Loss: -339.4823
+
+Sync from RL --> Nevo
+#Games: 5301 #Frames: 1888767  Train_Max: 2959.11  Test_Score: 2529.39  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 88.00  PG Loss: -341.1084
+
+Sync from RL --> Nevo
+#Games: 5332 #Frames: 1900122  Train_Max: 3137.92  Test_Score: 2973.81  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 783.87  PG Loss: -343.0486
+
+Sync from RL --> Nevo
+#Games: 5363 #Frames: 1910881  Train_Max: 3133.06  Test_Score: 3154.79  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 698.85  PG Loss: -344.6515
+
+Sync from RL --> Nevo
+#Games: 5394 #Frames: 1919789  Train_Max: 3264.65  Test_Score: 2863.86  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 759.36  PG Loss: -345.5650
+
+Sync from RL --> Nevo
+#Games: 5425 #Frames: 1927389  Train_Max: 2964.35  Test_Score: 2777.10  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 558.33  PG Loss: -346.4091
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 5456 #Frames: 1933619  Train_Max: 2239.25  Test_Score: 2996.34  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 799.37  PG Loss: -346.7960
+
+Sync from RL --> Nevo
+#Games: 5487 #Frames: 1940364  Train_Max: 3223.85  Test_Score: 2626.02  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 475.87  PG Loss: -347.1873
+
+Sync from RL --> Nevo
+#Games: 5518 #Frames: 1946503  Train_Max: 2491.18  Test_Score: 2865.59  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1032.68  PG Loss: -347.3213
+
+Sync from RL --> Nevo
+#Games: 5549 #Frames: 1954407  Train_Max: 2913.02  Test_Score: 2780.18  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 875.45  PG Loss: -347.5642
+
+Sync from RL --> Nevo
+#Games: 5580 #Frames: 1963386  Train_Max: 3054.66  Test_Score: 2887.50  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 925.62  PG Loss: -348.4703
+
+Sync from RL --> Nevo
+#Games: 5611 #Frames: 1972296  Train_Max: 2646.78  Test_Score: 2864.53  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 854.43  PG Loss: -349.1602
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 5642 #Frames: 1986688  Train_Max: 2707.91  Test_Score: 2841.67  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 916.41  PG Loss: -350.5975
+
+Sync from RL --> Nevo
+#Games: 5673 #Frames: 1999600  Train_Max: 3055.29  Test_Score: 3178.20  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 928.05  PG Loss: -352.0124
+
+Sync from RL --> Nevo
+#Games: 5704 #Frames: 2014323  Train_Max: 2658.27  Test_Score: 2735.38  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1096.05  PG Loss: -352.9957
+
+Sync from RL --> Nevo
+#Games: 5735 #Frames: 2027928  Train_Max: 2342.74  Test_Score: 2871.13  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 887.75  PG Loss: -355.5522
+
+Sync from RL --> Nevo
+#Games: 5766 #Frames: 2037529  Train_Max: 3173.99  Test_Score: 2765.58  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 717.03  PG Loss: -357.7263
+
+Sync from RL --> Nevo
+#Games: 5797 #Frames: 2043123  Train_Max: 2561.75  Test_Score: 2384.19  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 908.87  PG Loss: -358.5065
+
+Sync from RL --> Nevo
+#Games: 5828 #Frames: 2049828  Train_Max: 2367.91  Test_Score: 2618.48  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 946.11  PG Loss: -359.2081
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 5859 #Frames: 2057803  Train_Max: 3154.14  Test_Score: 2485.23  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 406.64  PG Loss: -359.8438
+
+Sync from RL --> Nevo
+#Games: 5890 #Frames: 2064544  Train_Max: 2734.60  Test_Score: 2818.54  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 189.70  PG Loss: -360.2115
+
+Sync from RL --> Nevo
+#Games: 5921 #Frames: 2069621  Train_Max: 2221.95  Test_Score: 2726.60  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 188.10  PG Loss: -360.3211
+
+Sync from RL --> Nevo
+#Games: 5952 #Frames: 2079209  Train_Max: 3364.03  Test_Score: 2866.26  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1783.23  PG Loss: -361.0622
+
+Sync from RL --> Nevo
+#Games: 5983 #Frames: 2089518  Train_Max: 3363.92  Test_Score: 3365.28  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 773.27  PG Loss: -362.7277
+
+Sync from RL --> Nevo
+#Games: 6014 #Frames: 2097954  Train_Max: 3364.63  Test_Score: 3365.26  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 967.63  PG Loss: -363.4381
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 6045 #Frames: 2110676  Train_Max: 3366.88  Test_Score: 3363.63  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 749.08  PG Loss: -362.1310
+
+Sync from RL --> Nevo
+#Games: 6076 #Frames: 2122643  Train_Max: 3366.83  Test_Score: 3365.19  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1190.04  PG Loss: -361.2543
+
+Sync from RL --> Nevo
+#Games: 6107 #Frames: 2133795  Train_Max: 3368.03  Test_Score: 3364.75  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 724.48  PG Loss: -363.4611
+
+Sync from RL --> Nevo
+#Games: 6138 #Frames: 2144791  Train_Max: 3365.52  Test_Score: 3363.53  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1041.45  PG Loss: -361.2363
+
+Sync from RL --> Nevo
+#Games: 6169 #Frames: 2156741  Train_Max: 3365.58  Test_Score: 3365.43  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 476.31  PG Loss: -360.7114
+
+Sync from RL --> Nevo
+#Games: 6200 #Frames: 2165503  Train_Max: 3366.26  Test_Score: 2864.64  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1509.67  PG Loss: -361.2689
+
+Sync from RL --> Nevo
+#Games: 6231 #Frames: 2177073  Train_Max: 3366.46  Test_Score: 3365.89  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 753.83  PG Loss: -362.3652
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 6262 #Frames: 2187834  Train_Max: 3367.38  Test_Score: 3365.71  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 671.28  PG Loss: -363.5980
+
+Sync from RL --> Nevo
+#Games: 6293 #Frames: 2196657  Train_Max: 3363.21  Test_Score: 2865.22  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 775.50  PG Loss: -365.2455
+
+Sync from RL --> Nevo
+#Games: 6324 #Frames: 2204912  Train_Max: 3367.03  Test_Score: 3364.30  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 865.29  PG Loss: -366.2055
+
+Sync from RL --> Nevo
+#Games: 6355 #Frames: 2216445  Train_Max: 3366.97  Test_Score: 2302.60  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 893.56  PG Loss: -367.3737
+
+Sync from RL --> Nevo
+#Games: 6386 #Frames: 2224666  Train_Max: 3366.21  Test_Score: 3361.92  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 779.79  PG Loss: -367.8059
+
+Sync from RL --> Nevo
+#Games: 6417 #Frames: 2236661  Train_Max: 3365.76  Test_Score: 2865.34  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 313.77  PG Loss: -369.1157
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 6448 #Frames: 2249123  Train_Max: 3465.96  Test_Score: 2822.63  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 354.38  PG Loss: -370.2039
+
+Sync from RL --> Nevo
+#Games: 6479 #Frames: 2259624  Train_Max: 3467.69  Test_Score: 3460.36  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 114.40  PG Loss: -371.8297
+
+Sync from RL --> Nevo
+#Games: 6510 #Frames: 2265735  Train_Max: 2527.79  Test_Score: 2864.37  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 40.99  PG Loss: -373.3015
+
+Sync from RL --> Nevo
+#Games: 6541 #Frames: 2274080  Train_Max: 3473.62  Test_Score: 2829.34  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 40.08  PG Loss: -374.8495
+
+Sync from RL --> Nevo
+#Games: 6572 #Frames: 2279038  Train_Max: 3473.63  Test_Score: 2835.25  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 995.44  PG Loss: -375.7184
+
+Sync from RL --> Nevo
+#Games: 6603 #Frames: 2288194  Train_Max: 3474.06  Test_Score: 2834.80  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1519.31  PG Loss: -376.6378
+
+Progress Saved
+Sync from RL --> Nevo
+#Games: 6634 #Frames: 2295141  Train_Max: 2410.02  Test_Score: 3469.53  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1502.52  PG Loss: -377.6161
+
+Sync from RL --> Nevo
+#Games: 6665 #Frames: 2303032  Train_Max: 3471.03  Test_Score: 2830.65  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1750.49  PG Loss: -377.9606
+
+Sync from RL --> Nevo
+#Games: 6696 #Frames: 2311068  Train_Max: 3475.29  Test_Score: 2832.66  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 3200.53  PG Loss: -378.2575
+
+Sync from RL --> Nevo
+#Games: 6727 #Frames: 2320094  Train_Max: 3218.39  Test_Score: 3212.92  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1348.97  PG Loss: -378.6768
+
+Sync from RL --> Nevo
+#Games: 6758 #Frames: 2326200  Train_Max: 3247.84  Test_Score: 3251.66  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1216.92  PG Loss: -379.3181
+
+Sync from RL --> Nevo
+#Games: 6789 #Frames: 2332650  Train_Max: 3192.16  Test_Score: 3111.08  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1556.43  PG Loss: -379.7568
+
+Sync from RL --> Nevo
+#Games: 6820 #Frames: 2339396  Train_Max: 3227.20  Test_Score: 2959.51  Avg: 0.00  ENV:  Hopper-v2  DDPG Reward: 1494.57  PG Loss: -379.8138
+
+Progress Saved
